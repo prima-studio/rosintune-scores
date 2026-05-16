@@ -1,0 +1,64 @@
+#!/usr/bin/env python3
+"""Generate a CSV for bulk-importing in-app purchases into App Store Connect.
+
+Reads score-index.json, finds every paid score, and writes a CSV with the
+product IDs that match the app's naming convention:
+
+    {collectionID}/{scoreTitle}   (spaces stripped)
+
+Usage:
+    python3 scripts/generate-app-store-products.py > products.csv
+"""
+
+import json
+import csv
+import sys
+import os
+
+INDEX_PATH = os.path.join(os.path.dirname(__file__), "..", "score-index.json")
+
+
+def load_index():
+    with open(INDEX_PATH) as f:
+        return json.load(f)
+
+
+def sanitize(text: str) -> str:
+    """Keep only alphanumeric, period, and underscore characters. Hyphens become underscores."""
+    text = text.replace("-", "_")
+    return "".join(c for c in text if c.isalnum() or c in "._")
+
+
+def main():
+    index = load_index()
+    rows = []
+
+    for col in index.get("collections", []):
+        if col.get("isFree", True):
+            continue
+
+        for score in col.get("scores", []):
+
+            product_id = sanitize(col["id"]) + "." + sanitize(score["title"])
+            rows.append({
+                "Product ID": product_id,
+                "Reference Name": f"{score['title']} ({col['title']})",
+                "Product Type": "Non-Consumable",
+                "Price": "",       # fill in manually or leave for App Store Connect
+                "Description": f"{score['title']} from {col['title']} by {col.get('composer', 'Unknown')}",
+            })
+
+    if not rows:
+        print("No published paid scores found.", file=sys.stderr)
+        sys.exit(0)
+
+    writer = csv.DictWriter(sys.stdout, fieldnames=[
+        "Product ID", "Reference Name", "Product Type", "Price", "Description"
+    ])
+    writer.writeheader()
+    writer.writerows(rows)
+    print(f"\n{len(rows)} products written.", file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()

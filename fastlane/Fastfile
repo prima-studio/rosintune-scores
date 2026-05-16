@@ -1,0 +1,49 @@
+# Fastlane script to create all in-app purchases from score-index.json.
+#
+# Prerequisites:
+#   bundle exec fastlane init   (if first time)
+#
+# Usage:
+#   fastlane create_products username:you@example.com app_identifier:com.example.rosintune
+#
+# Or set defaults in fastlane/Appfile:
+#   app_identifier "com.example.RosinTune"
+#   apple_id "you@example.com"
+
+require "json"
+
+default_platform(:ios)
+
+lane :create_products do |options|
+  username = options[:username]
+  app_identifier = options[:app_identifier]
+
+  unless username && app_identifier
+    UI.user_error!("Required: fastlane create_products username:you@example.com app_identifier:com.example.rosintune")
+  end
+
+  index = JSON.parse(File.read("../score-index.json"))
+
+  index["collections"].each do |col|
+    next if col["isFree"] == true
+
+    col["scores"].each do |score|
+      safe_id = col['id'].gsub("-", "_").gsub(/[^a-zA-Z0-9._]/, "")
+      safe_title = score['title'].gsub("-", "_").gsub(/[^a-zA-Z0-9._]/, "")
+      product_id = "#{safe_id}.#{safe_title}"
+
+      UI.important("Creating: #{product_id}")
+
+      produce(
+        username: username,
+        app_identifier: app_identifier,
+        product_name: "#{score['title']} (#{col['title']})",
+        product_id: product_id,
+        review_notes: "#{score['title']} from #{col['title']} by #{col.fetch('composer', 'Unknown')}",
+        skip_itc: false
+      )
+    end
+  end
+
+  UI.success("Done.")
+end
