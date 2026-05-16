@@ -1,0 +1,260 @@
+{
+  "metadata": {
+    "title": "Lightly Row",
+    "composer": "Traditional",
+    "key": "C Major",
+    "tempo": 80,
+    "clef": "treble",
+    "timeSignature": "4/4",
+    "collectionId": "example",
+    "difficulty": "beginner",
+    "version": 1
+  },
+  "measures": [
+    {
+      "number": 1,
+      "notes": [
+        {
+          "pitch": "E4",
+          "duration": "quarter",
+          "beat": 0.0,
+          "show": null,
+          "stem": "up",
+          "flags": 0,
+          "string": 3,
+          "fingering": "1",
+          "bowing": "down",
+          "articulation": null,
+          "beam": null,
+          "slur": null,
+          "tie": null
+        },
+        {
+          "pitch": "E4",
+          "duration": "quarter",
+          "beat": 1.0,
+          "show": null,
+          "stem": "up",
+          "flags": 0,
+          "string": 3,
+          "fingering": "1",
+          "bowing": "up",
+          "articulation": null,
+          "beam": null,
+          "slur": null,
+          "tie": null
+        },
+        {
+          "pitch": "F4",
+          "duration": "quarter",
+          "beat": 2.0,
+          "show": null,
+          "stem": "up",
+          "flags": 0,
+          "string": 3,
+          "fingering": "2",
+          "bowing": "down",
+          "articulation": null,
+          "beam": null,
+          "slur": null,
+          "tie": null
+        },
+        {
+          "pitch": "G4",
+          "duration": "quarter",
+          "beat": 3.0,
+          "show": null,
+          "stem": "up",
+          "flags": 0,
+          "string": 3,
+          "fingering": "3",
+          "bowing": "up",
+          "articulation": null,
+          "beam": null,
+          "slur": null,
+          "tie": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "notes": [
+        {
+          "pitch": "G4",
+          "duration": "quarter",
+          "beat": 0.0,
+          "show": null,
+          "stem": "up",
+          "flags": 0,
+          "string": 3,
+          "fingering": "3",
+          "bowing": "down",
+          "articulation": null,
+          "beam": null,
+          "slur": null,
+          "tie": null
+        },
+        {
+          "pitch": "F4",
+          "duration": "quarter",
+          "beat": 1.0,
+          "show": null,
+          "stem": "up",
+          "flags": 0,
+          "string": 3,
+          "fingering": "2",
+          "bowing": "up",
+          "articulation": null,
+          "beam": null,
+          "slur": null,
+          "tie": null
+        },
+        {
+          "pitch": "E4",
+          "duration": "quarter",
+          "beat": 2.0,
+          "show": null,
+          "stem": "up",
+          "flags": 0,
+          "string": 3,
+          "fingering": "1",
+          "bowing": "down",
+          "articulation": null,
+          "beam": null,
+          "slur": null,
+          "tie": null
+        },
+        {
+          "pitch": "D4",
+          "duration": "quarter",
+          "beat": 3.0,
+          "show": null,
+          "stem": "up",
+          "flags": 0,
+          "string": 3,
+          "fingering": "0",
+          "bowing": "up",
+          "articulation": null,
+          "beam": null,
+          "slur": null,
+          "tie": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "notes": [
+        {
+          "pitch": "C4",
+          "duration": "quarter",
+          "beat": 0.0,
+          "show": null,
+          "stem": "up",
+          "flags": 0,
+          "string": 4,
+          "fingering": "3",
+          "bowing": "down",
+          "articulation": null,
+          "beam": null,
+          "slur": null,
+          "tie": null
+        },
+        {
+          "pitch": "C4",
+          "duration": "quarter",
+          "beat": 1.0,
+          "show": null,
+          "stem": "up",
+          "flags": 0,
+          "string": 4,
+          "fingering": "3",
+          "bowing": "up",
+          "articulation": null,
+          "beam": null,
+          "slur": null,
+          "tie": null
+        },
+        {
+          "pitch": "D4",
+          "duration": "quarter",
+          "beat": 2.0,
+          "show": null,
+          "stem": "up",
+          "flags": 0,
+          "string": 3,
+          "fingering": "0",
+          "bowing": "down",
+          "articulation": null,
+          "beam": null,
+          "slur": null,
+          "tie": null
+        },
+        {
+          "pitch": "E4",
+          "duration": "quarter",
+          "beat": 3.0,
+          "show": null,
+          "stem": "up",
+          "flags": 0,
+          "string": 3,
+          "fingering": "1",
+          "bowing": "up",
+          "articulation": null,
+          "beam": null,
+          "slur": null,
+          "tie": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "notes": [
+        {
+          "pitch": "E4",
+          "duration": "quarter",
+          "beat": 0.0,
+          "show": null,
+          "stem": "up",
+          "flags": 0,
+          "string": 3,
+          "fingering": "1",
+          "bowing": "down",
+          "articulation": null,
+          "beam": null,
+          "slur": null,
+          "tie": null
+        },
+        {
+          "pitch": "D4",
+          "duration": "half",
+          "beat": 1.0,
+          "show": null,
+          "stem": "up",
+          "flags": 0,
+          "string": 3,
+          "fingering": "0",
+          "bowing": "up",
+          "articulation": null,
+          "beam": null,
+          "slur": null,
+          "tie": null
+        },
+        {
+          "pitch": "D4",
+          "duration": "quarter",
+          "beat": 3.0,
+          "show": null,
+          "stem": "up",
+          "flags": 0,
+          "string": 3,
+          "fingering": "0",
+          "bowing": "down",
+          "articulation": null,
+          "beam": null,
+          "slur": null,
+          "tie": null
+        }
+      ]
+    }
+  ]
+}

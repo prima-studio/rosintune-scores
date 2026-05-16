@@ -1,0 +1,471 @@
+{
+  "metadata": {
+    "title": "Gavotte en Rondeau",
+    "composer": "J.S. Bach",
+    "key": "E Major",
+    "tempo": 110,
+    "clef": "treble",
+    "timeSignature": "4/4",
+    "collectionId": "bach-partita-3",
+    "difficulty": "intermediate",
+    "version": 1
+  },
+  "measures": [
+    {
+      "number": 1,
+      "notes": [
+        {
+          "pitch": "E5",
+          "duration": "quarter",
+          "beat": 0.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "0"
+        },
+        {
+          "pitch": "F#5",
+          "duration": "quarter",
+          "beat": 1.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "1"
+        },
+        {
+          "pitch": "G#5",
+          "duration": "half",
+          "beat": 2.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "2"
+        }
+      ],
+      "startRepeat": true,
+      "endRepeat": false
+    },
+    {
+      "number": 2,
+      "notes": [
+        {
+          "pitch": "A5",
+          "duration": "quarter",
+          "beat": 0.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "3"
+        },
+        {
+          "pitch": "G#5",
+          "duration": "quarter",
+          "beat": 1.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "2"
+        },
+        {
+          "pitch": "F#5",
+          "duration": "half",
+          "beat": 2.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "1"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "notes": [
+        {
+          "pitch": "E5",
+          "duration": "quarter",
+          "beat": 0.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "0"
+        },
+        {
+          "pitch": "C#5",
+          "duration": "quarter",
+          "beat": 1.0,
+          "stem": "down",
+          "string": 2,
+          "fingering": "2"
+        },
+        {
+          "pitch": "D#5",
+          "duration": "quarter",
+          "beat": 2.0,
+          "stem": "up",
+          "string": 2,
+          "fingering": "3"
+        },
+        {
+          "pitch": "E5",
+          "duration": "quarter",
+          "beat": 3.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "0"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "notes": [
+        {
+          "pitch": "F#5",
+          "duration": "half",
+          "beat": 0.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "1"
+        },
+        {
+          "pitch": "D#5",
+          "duration": "half",
+          "beat": 2.0,
+          "stem": "down",
+          "string": 2,
+          "fingering": "3"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "notes": [
+        {
+          "pitch": "E5",
+          "duration": "quarter",
+          "beat": 0.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "0"
+        },
+        {
+          "pitch": "F#5",
+          "duration": "quarter",
+          "beat": 1.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "1"
+        },
+        {
+          "pitch": "G#5",
+          "duration": "quarter",
+          "beat": 2.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "2"
+        },
+        {
+          "pitch": "A5",
+          "duration": "quarter",
+          "beat": 3.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "3"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "notes": [
+        {
+          "pitch": "B5",
+          "duration": "half",
+          "beat": 0.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "3"
+        },
+        {
+          "pitch": "G#5",
+          "duration": "half",
+          "beat": 2.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "2"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "notes": [
+        {
+          "pitch": "F#5",
+          "duration": "quarter",
+          "beat": 0.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "1"
+        },
+        {
+          "pitch": "E5",
+          "duration": "quarter",
+          "beat": 1.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "0"
+        },
+        {
+          "pitch": "D#5",
+          "duration": "quarter",
+          "beat": 2.0,
+          "stem": "down",
+          "string": 2,
+          "fingering": "3"
+        },
+        {
+          "pitch": "B4",
+          "duration": "quarter",
+          "beat": 3.0,
+          "stem": "down",
+          "string": 2,
+          "fingering": "1"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "endRepeat": true,
+      "notes": [
+        {
+          "pitch": "E5",
+          "duration": "whole",
+          "beat": 0.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "0"
+        }
+      ],
+      "startRepeat": false
+    },
+    {
+      "number": 9,
+      "notes": [
+        {
+          "pitch": "B4",
+          "duration": "quarter",
+          "beat": 0.0,
+          "stem": "down",
+          "string": 2,
+          "fingering": "1"
+        },
+        {
+          "pitch": "C#5",
+          "duration": "quarter",
+          "beat": 1.0,
+          "stem": "up",
+          "string": 2,
+          "fingering": "2"
+        },
+        {
+          "pitch": "D#5",
+          "duration": "quarter",
+          "beat": 2.0,
+          "stem": "up",
+          "string": 2,
+          "fingering": "3"
+        },
+        {
+          "pitch": "E5",
+          "duration": "quarter",
+          "beat": 3.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "0"
+        }
+      ],
+      "startRepeat": true,
+      "endRepeat": false
+    },
+    {
+      "number": 10,
+      "notes": [
+        {
+          "pitch": "F#5",
+          "duration": "half",
+          "beat": 0.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "1"
+        },
+        {
+          "pitch": "D#5",
+          "duration": "half",
+          "beat": 2.0,
+          "stem": "down",
+          "string": 2,
+          "fingering": "3"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "notes": [
+        {
+          "pitch": "E5",
+          "duration": "quarter",
+          "beat": 0.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "0"
+        },
+        {
+          "pitch": "D#5",
+          "duration": "quarter",
+          "beat": 1.0,
+          "stem": "down",
+          "string": 2,
+          "fingering": "3"
+        },
+        {
+          "pitch": "C#5",
+          "duration": "quarter",
+          "beat": 2.0,
+          "stem": "down",
+          "string": 2,
+          "fingering": "2"
+        },
+        {
+          "pitch": "B4",
+          "duration": "quarter",
+          "beat": 3.0,
+          "stem": "down",
+          "string": 2,
+          "fingering": "1"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "notes": [
+        {
+          "pitch": "A4",
+          "duration": "half",
+          "beat": 0.0,
+          "stem": "down",
+          "string": 3,
+          "fingering": "0"
+        },
+        {
+          "pitch": "C#5",
+          "duration": "half",
+          "beat": 2.0,
+          "stem": "down",
+          "string": 2,
+          "fingering": "2"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "notes": [
+        {
+          "pitch": "F#5",
+          "duration": "quarter",
+          "beat": 0.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "1"
+        },
+        {
+          "pitch": "E5",
+          "duration": "quarter",
+          "beat": 1.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "0"
+        },
+        {
+          "pitch": "D#5",
+          "duration": "quarter",
+          "beat": 2.0,
+          "stem": "down",
+          "string": 2,
+          "fingering": "3"
+        },
+        {
+          "pitch": "E5",
+          "duration": "quarter",
+          "beat": 3.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "0"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "notes": [
+        {
+          "pitch": "F#5",
+          "duration": "half",
+          "beat": 0.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "1"
+        },
+        {
+          "pitch": "A5",
+          "duration": "half",
+          "beat": 2.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "3"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "notes": [
+        {
+          "pitch": "G#5",
+          "duration": "quarter",
+          "beat": 0.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "2"
+        },
+        {
+          "pitch": "F#5",
+          "duration": "quarter",
+          "beat": 1.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "1"
+        },
+        {
+          "pitch": "E5",
+          "duration": "quarter",
+          "beat": 2.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "0"
+        },
+        {
+          "pitch": "D#5",
+          "duration": "quarter",
+          "beat": 3.0,
+          "stem": "down",
+          "string": 2,
+          "fingering": "3"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "endRepeat": true,
+      "notes": [
+        {
+          "pitch": "E5",
+          "duration": "whole",
+          "beat": 0.0,
+          "stem": "up",
+          "string": 1,
+          "fingering": "0"
+        }
+      ],
+      "startRepeat": false
+    }
+  ]
+}

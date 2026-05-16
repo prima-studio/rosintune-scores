@@ -1,0 +1,223 @@
+{
+  "version": 1,
+  "collections": [
+    {
+      "id": "bach-partita",
+      "title": "Bach Partita",
+      "subtitle": null,
+      "composer": "J.S. Bach",
+      "isFree": false,
+      "sortOrder": 1,
+      "scores": [
+        {
+          "filename": "violin/bach-partita/allemande.json",
+          "title": "Allemande",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "published",
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-partita/gavotte.json",
+          "title": "Gavotte en Rondeau",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "published",
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-partita/gigue.json",
+          "title": "Gigue",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "published",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "bach-partita-3",
+      "title": "Bach Partita No. 3",
+      "subtitle": null,
+      "composer": "J.S. Bach",
+      "isFree": true,
+      "sortOrder": 10,
+      "scores": [
+        {
+          "filename": "violin/bach-partita-3/gavotte-en-rondeau.json",
+          "title": "Gavotte en Rondeau",
+          "composer": "J.S. Bach",
+          "difficulty": "intermediate",
+          "stage": "published",
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-partita-3/gigue.json",
+          "title": "Gigue",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "published",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "kayser-36-studies",
+      "title": "Kayser 36 Studies",
+      "subtitle": "Elementary and Progressive Studies, Op. 20",
+      "composer": "H.E. Kayser",
+      "isFree": true,
+      "sortOrder": 2,
+      "scores": [
+        {
+          "filename": "violin/kayser-36-studies/etude-01.json",
+          "title": "Etude No. 1",
+          "composer": "H.E. Kayser",
+          "difficulty": "beginner",
+          "stage": "published",
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-02.json",
+          "title": "Etude No. 2",
+          "composer": "H.E. Kayser",
+          "difficulty": "beginner",
+          "stage": "published",
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-03.json",
+          "title": "Etude No. 3",
+          "composer": "H.E. Kayser",
+          "difficulty": "intermediate",
+          "stage": "published",
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-04.json",
+          "title": "Etude No. 4",
+          "composer": "H.E. Kayser",
+          "difficulty": "intermediate",
+          "stage": "published",
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-05.json",
+          "title": "Etude No. 5",
+          "composer": "H.E. Kayser",
+          "difficulty": "intermediate",
+          "stage": "published",
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-06.json",
+          "title": "Etude No. 6",
+          "composer": "H.E. Kayser",
+          "difficulty": "intermediate",
+          "stage": "published",
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-07.json",
+          "title": "Etude No. 7",
+          "composer": "H.E. Kayser",
+          "difficulty": "intermediate",
+          "stage": "published",
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-08.json",
+          "title": "Etude No. 8",
+          "composer": "H.E. Kayser",
+          "difficulty": "intermediate",
+          "stage": "published",
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-09.json",
+          "title": "Etude No. 9",
+          "composer": "H.E. Kayser",
+          "difficulty": "intermediate",
+          "stage": "published",
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-10.json",
+          "title": "Etude No. 10",
+          "composer": "H.E. Kayser",
+          "difficulty": "intermediate",
+          "stage": "published",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "example",
+      "title": "Example",
+      "subtitle": null,
+      "composer": null,
+      "isFree": true,
+      "sortOrder": 0,
+      "scores": [
+        {
+          "filename": "violin/example/lightly-row.json",
+          "title": "Lightly Row",
+          "composer": "Traditional",
+          "difficulty": "beginner",
+          "stage": "published",
+          "version": 1
+        },
+        {
+          "filename": "violin/example/twinkle.json",
+          "title": "Twinkle Twinkle Little Star",
+          "composer": "Traditional",
+          "difficulty": "beginner",
+          "stage": "published",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "suzuki-book-1",
+      "title": "Suzuki Book 1",
+      "subtitle": null,
+      "composer": "Shinichi Suzuki",
+      "isFree": true,
+      "sortOrder": 1,
+      "scores": [
+        {
+          "filename": "violin/suzuki-book-1/allegro.json",
+          "title": "Allegro",
+          "composer": "Shinichi Suzuki",
+          "difficulty": "beginner",
+          "stage": "published",
+          "version": 1
+        },
+        {
+          "filename": "violin/suzuki-book-1/go-tell-aunt-rhody.json",
+          "title": "Go Tell Aunt Rhody",
+          "composer": "Traditional / Suzuki",
+          "difficulty": "beginner",
+          "stage": "published",
+          "version": 1
+        },
+        {
+          "filename": "violin/suzuki-book-1/song-of-the-wind.json",
+          "title": "Song of the Wind",
+          "composer": "Folk Song / Suzuki",
+          "difficulty": "beginner",
+          "stage": "published",
+          "version": 1
+        },
+        {
+          "filename": "violin/suzuki-book-1/twinkle-variation-a.json",
+          "title": "Twinkle Variation A",
+          "composer": "Traditional / Suzuki",
+          "difficulty": "beginner",
+          "stage": "published",
+          "version": 1
+        }
+      ]
+    }
+  ]
+}
