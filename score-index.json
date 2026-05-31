@@ -148,6 +148,86 @@
           "difficulty": "intermediate",
           "stage": "staging",
           "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-11.json",
+          "title": "Etude No. 11",
+          "composer": "H.E. Kayser",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-12.json",
+          "title": "Etude No. 12",
+          "composer": "H.E. Kayser",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-13.json",
+          "title": "Etude No. 13",
+          "composer": "H.E. Kayser",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-14.json",
+          "title": "Etude No. 14",
+          "composer": "H.E. Kayser",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-15.json",
+          "title": "Etude No. 15",
+          "composer": "H.E. Kayser",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-16.json",
+          "title": "Etude No. 16",
+          "composer": "H.E. Kayser",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-17.json",
+          "title": "Etude No. 17",
+          "composer": "H.E. Kayser",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-18.json",
+          "title": "Etude No. 18",
+          "composer": "H.E. Kayser",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-19.json",
+          "title": "Etude No. 19",
+          "composer": "H.E. Kayser",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-20.json",
+          "title": "Etude No. 20",
+          "composer": "H.E. Kayser",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "version": 1
         }
       ]
     },
