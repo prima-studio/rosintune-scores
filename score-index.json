@@ -75,6 +75,7 @@
           "composer": "H.E. Kayser",
           "difficulty": "beginner",
           "stage": "published",
+          "isFree": true,
           "price": 0,
           "version": 1
         },
