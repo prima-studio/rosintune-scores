@@ -34,17 +34,22 @@ def main():
     rows = []
 
     for col in index.get("collections", []):
-        if col.get("isFree", True):
-            continue
-
         for score in col.get("scores", []):
+            price = score.get("price")
+            # Paid when the per-piece price is > 0. Fall back to the collection-level
+            # isFree flag for collections that haven't adopted per-piece pricing.
+            if price is not None:
+                if not (price and float(price) > 0):
+                    continue       # free piece -> no IAP product
+            elif col.get("isFree", True):
+                continue
 
             product_id = sanitize(col["id"]) + "." + sanitize(score["title"])
             rows.append({
                 "Product ID": product_id,
                 "Reference Name": f"{score['title']} ({col['title']})",
                 "Product Type": "Non-Consumable",
-                "Price": "",       # fill in manually or leave for App Store Connect
+                "Price": str(price) if price else "",   # per-piece price; blank = set in App Store Connect
                 "Description": f"{score['title']} from {col['title']} by {col.get('composer', 'Unknown')}",
             })
 

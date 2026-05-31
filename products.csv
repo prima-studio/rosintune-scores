@@ -2,13 +2,22 @@ Product ID,Reference Name,Product Type,Price,Description
 bach_partita.Allemande,Allemande (Bach Partita),Non-Consumable,,Allemande from Bach Partita by J.S. Bach
 bach_partita.GavotteenRondeau,Gavotte en Rondeau (Bach Partita),Non-Consumable,,Gavotte en Rondeau from Bach Partita by J.S. Bach
 bach_partita.Gigue,Gigue (Bach Partita),Non-Consumable,,Gigue from Bach Partita by J.S. Bach
-kayser_36_studies.EtudeNo.1,Etude No. 1 (Kayser 36 Studies),Non-Consumable,,Etude No. 1 from Kayser 36 Studies by H.E. Kayser
-kayser_36_studies.EtudeNo.2,Etude No. 2 (Kayser 36 Studies),Non-Consumable,,Etude No. 2 from Kayser 36 Studies by H.E. Kayser
-kayser_36_studies.EtudeNo.3,Etude No. 3 (Kayser 36 Studies),Non-Consumable,,Etude No. 3 from Kayser 36 Studies by H.E. Kayser
-kayser_36_studies.EtudeNo.4,Etude No. 4 (Kayser 36 Studies),Non-Consumable,,Etude No. 4 from Kayser 36 Studies by H.E. Kayser
-kayser_36_studies.EtudeNo.5,Etude No. 5 (Kayser 36 Studies),Non-Consumable,,Etude No. 5 from Kayser 36 Studies by H.E. Kayser
-kayser_36_studies.EtudeNo.6,Etude No. 6 (Kayser 36 Studies),Non-Consumable,,Etude No. 6 from Kayser 36 Studies by H.E. Kayser
-kayser_36_studies.EtudeNo.7,Etude No. 7 (Kayser 36 Studies),Non-Consumable,,Etude No. 7 from Kayser 36 Studies by H.E. Kayser
-kayser_36_studies.EtudeNo.8,Etude No. 8 (Kayser 36 Studies),Non-Consumable,,Etude No. 8 from Kayser 36 Studies by H.E. Kayser
-kayser_36_studies.EtudeNo.9,Etude No. 9 (Kayser 36 Studies),Non-Consumable,,Etude No. 9 from Kayser 36 Studies by H.E. Kayser
-kayser_36_studies.EtudeNo.10,Etude No. 10 (Kayser 36 Studies),Non-Consumable,,Etude No. 10 from Kayser 36 Studies by H.E. Kayser
+kayser_36_studies.EtudeNo.2,Etude No. 2 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 2 from Kayser 36 Studies by H.E. Kayser
+kayser_36_studies.EtudeNo.3,Etude No. 3 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 3 from Kayser 36 Studies by H.E. Kayser
+kayser_36_studies.EtudeNo.4,Etude No. 4 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 4 from Kayser 36 Studies by H.E. Kayser
+kayser_36_studies.EtudeNo.5,Etude No. 5 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 5 from Kayser 36 Studies by H.E. Kayser
+kayser_36_studies.EtudeNo.6,Etude No. 6 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 6 from Kayser 36 Studies by H.E. Kayser
+kayser_36_studies.EtudeNo.7,Etude No. 7 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 7 from Kayser 36 Studies by H.E. Kayser
+kayser_36_studies.EtudeNo.8,Etude No. 8 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 8 from Kayser 36 Studies by H.E. Kayser
+kayser_36_studies.EtudeNo.9,Etude No. 9 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 9 from Kayser 36 Studies by H.E. Kayser
+kayser_36_studies.EtudeNo.10,Etude No. 10 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 10 from Kayser 36 Studies by H.E. Kayser
+kayser_36_studies.EtudeNo.11,Etude No. 11 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 11 from Kayser 36 Studies by H.E. Kayser
+kayser_36_studies.EtudeNo.12,Etude No. 12 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 12 from Kayser 36 Studies by H.E. Kayser
+kayser_36_studies.EtudeNo.13,Etude No. 13 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 13 from Kayser 36 Studies by H.E. Kayser
+kayser_36_studies.EtudeNo.14,Etude No. 14 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 14 from Kayser 36 Studies by H.E. Kayser
+kayser_36_studies.EtudeNo.15,Etude No. 15 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 15 from Kayser 36 Studies by H.E. Kayser
+kayser_36_studies.EtudeNo.16,Etude No. 16 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 16 from Kayser 36 Studies by H.E. Kayser
+kayser_36_studies.EtudeNo.17,Etude No. 17 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 17 from Kayser 36 Studies by H.E. Kayser
+kayser_36_studies.EtudeNo.18,Etude No. 18 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 18 from Kayser 36 Studies by H.E. Kayser
+kayser_36_studies.EtudeNo.19,Etude No. 19 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 19 from Kayser 36 Studies by H.E. Kayser
+kayser_36_studies.EtudeNo.20,Etude No. 20 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 20 from Kayser 36 Studies by H.E. Kayser
