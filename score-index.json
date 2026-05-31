@@ -274,6 +274,14 @@
           "difficulty": "beginner",
           "stage": "published",
           "version": 1
+        },
+        {
+          "filename": "violin/example/ode-to-joy.json",
+          "title": "Ode to Joy",
+          "composer": "L. van Beethoven",
+          "difficulty": "beginner",
+          "stage": "published",
+          "version": 1
         }
       ]
     },
@@ -286,35 +294,111 @@
       "sortOrder": 1,
       "scores": [
         {
-          "filename": "violin/suzuki-book-1/allegro.json",
-          "title": "Allegro",
-          "composer": "Shinichi Suzuki",
+          "filename": "violin/suzuki-book-1/twinkle-twinkle-little-star.json",
+          "title": "Twinkle Twinkle Little Star",
+          "composer": "Traditional",
           "difficulty": "beginner",
           "stage": "published",
+          "price": 0,
           "version": 1
         },
         {
-          "filename": "violin/suzuki-book-1/go-tell-aunt-rhody.json",
-          "title": "Go Tell Aunt Rhody",
-          "composer": "Traditional / Suzuki",
+          "filename": "violin/suzuki-book-1/lightly-row.json",
+          "title": "Lightly Row",
+          "composer": "Traditional",
           "difficulty": "beginner",
           "stage": "published",
+          "price": 0,
           "version": 1
         },
         {
           "filename": "violin/suzuki-book-1/song-of-the-wind.json",
           "title": "Song of the Wind",
-          "composer": "Folk Song / Suzuki",
+          "composer": "Traditional",
           "difficulty": "beginner",
           "stage": "published",
+          "price": 0,
           "version": 1
         },
         {
-          "filename": "violin/suzuki-book-1/twinkle-variation-a.json",
-          "title": "Twinkle Variation A",
-          "composer": "Traditional / Suzuki",
+          "filename": "violin/suzuki-book-1/go-tell-aunt-rhody.json",
+          "title": "Go Tell Aunt Rhody",
+          "composer": "Traditional",
           "difficulty": "beginner",
           "stage": "published",
+          "price": 0,
+          "version": 1
+        },
+        {
+          "filename": "violin/suzuki-book-1/o-come-little-children.json",
+          "title": "O Come, Little Children",
+          "composer": "J.A.P. Schulz",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0,
+          "version": 1
+        },
+        {
+          "filename": "violin/suzuki-book-1/may-song.json",
+          "title": "May Song",
+          "composer": "Traditional",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0,
+          "version": 1
+        },
+        {
+          "filename": "violin/suzuki-book-1/long-long-ago.json",
+          "title": "Long, Long Ago",
+          "composer": "T.H. Bayly",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0,
+          "version": 1
+        },
+        {
+          "filename": "violin/suzuki-book-1/minuet-no-1.json",
+          "title": "Minuet No. 1",
+          "composer": "J.S. Bach",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0,
+          "version": 1
+        },
+        {
+          "filename": "violin/suzuki-book-1/minuet-no-2.json",
+          "title": "Minuet No. 2",
+          "composer": "J.S. Bach",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0,
+          "version": 1
+        },
+        {
+          "filename": "violin/suzuki-book-1/minuet-no-3.json",
+          "title": "Minuet No. 3",
+          "composer": "J.S. Bach",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0,
+          "version": 1
+        },
+        {
+          "filename": "violin/suzuki-book-1/the-happy-farmer.json",
+          "title": "The Happy Farmer",
+          "composer": "R. Schumann",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0,
+          "version": 1
+        },
+        {
+          "filename": "violin/suzuki-book-1/gavotte.json",
+          "title": "Gavotte",
+          "composer": "F.J. Gossec",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0,
           "version": 1
         }
       ]

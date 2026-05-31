@@ -151,6 +151,8 @@ def convert(root, args):
                 continue
             if el.tag != "note":
                 continue
+            if args.staff is not None and text_of(el, "staff", "1") != str(args.staff):
+                continue  # other staff of a grand-staff (e.g. piano) source
             if el.find("grace") is not None:
                 continue  # grace/ornament notes carry no metric duration
             nd = parse_note(el, divisions)
@@ -427,6 +429,8 @@ def main():
     ap.add_argument("--version", type=int, default=1)
     ap.add_argument("--free", action=argparse.BooleanOptionalAction, default=True)
     ap.add_argument("--no-fingering", action="store_true")
+    ap.add_argument("--staff", type=int, default=None,
+                    help="extract only this staff (grand-staff/piano sources; melody is usually 1)")
     args = ap.parse_args()
 
     root = load_root(args.input)
