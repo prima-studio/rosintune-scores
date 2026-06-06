@@ -1,0 +1,89 @@
+Collection,Collection Title,Filename,Title,Composer,Difficulty,Stage,Price,Free
+example,Example,violin/example/lightly-row.json,Lightly Row,Traditional,beginner,published,0.0,true
+example,Example,violin/example/ode-to-joy.json,Ode to Joy,L. van Beethoven,beginner,published,0.0,true
+example,Example,violin/example/twinkle.json,Twinkle Twinkle Little Star,Traditional,beginner,published,,true
+bach-partita,Bach Partita,violin/bach-partita/allemande.json,Allemande,J.S. Bach,advanced,staging,,false
+bach-partita,Bach Partita,violin/bach-partita/gavotte.json,Gavotte en Rondeau,J.S. Bach,advanced,staging,,false
+bach-partita,Bach Partita,violin/bach-partita/gigue.json,Gigue,J.S. Bach,advanced,staging,,false
+suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/twinkle-twinkle-little-star.json,Twinkle Twinkle Little Star,Traditional,beginner,published,0,true
+suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/lightly-row.json,Lightly Row,Traditional,beginner,published,0,true
+suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/song-of-the-wind.json,Song of the Wind,Traditional,beginner,published,0,true
+suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/go-tell-aunt-rhody.json,Go Tell Aunt Rhody,Traditional,beginner,published,0,true
+suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/o-come-little-children.json,"O Come, Little Children",J.A.P. Schulz,beginner,published,0,true
+suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/may-song.json,May Song,Traditional,beginner,published,0,true
+suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/long-long-ago.json,"Long, Long Ago",T.H. Bayly,beginner,published,0,true
+suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/minuet-no-1.json,Minuet No. 1,J.S. Bach,beginner,published,0,true
+suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/minuet-no-2.json,Minuet No. 2,J.S. Bach,beginner,published,0,true
+suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/minuet-no-3.json,Minuet No. 3,J.S. Bach,beginner,published,0,true
+suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/the-happy-farmer.json,The Happy Farmer,R. Schumann,beginner,published,0,true
+suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/gavotte.json,Gavotte,F.J. Gossec,beginner,published,0,true
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-01.json,Etude No. 1,H.E. Kayser,beginner,published,0,true
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-02.json,Etude No. 2,H.E. Kayser,beginner,published,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-03.json,Etude No. 3,H.E. Kayser,intermediate,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-04.json,Etude No. 4,H.E. Kayser,intermediate,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-05.json,Etude No. 5,H.E. Kayser,intermediate,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-06.json,Etude No. 6,H.E. Kayser,intermediate,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-07.json,Etude No. 7,H.E. Kayser,intermediate,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-08.json,Etude No. 8,H.E. Kayser,intermediate,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-09.json,Etude No. 9,H.E. Kayser,intermediate,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-10.json,Etude No. 10,H.E. Kayser,intermediate,published,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-11.json,Etude No. 11,H.E. Kayser,intermediate,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-12.json,Etude No. 12,H.E. Kayser,intermediate,published,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-13.json,Etude No. 13,H.E. Kayser,intermediate,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-14.json,Etude No. 14,H.E. Kayser,intermediate,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-15.json,Etude No. 15,H.E. Kayser,intermediate,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-16.json,Etude No. 16,H.E. Kayser,intermediate,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-17.json,Etude No. 17,H.E. Kayser,intermediate,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-18.json,Etude No. 18,H.E. Kayser,intermediate,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-19.json,Etude No. 19,H.E. Kayser,intermediate,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-20.json,Etude No. 20,H.E. Kayser,intermediate,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-21.json,Etude No. 21,H.E. Kayser,advanced,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-22.json,Etude No. 22,H.E. Kayser,advanced,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-23.json,Etude No. 23,H.E. Kayser,advanced,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-24.json,Etude No. 24,H.E. Kayser,advanced,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-25.json,Etude No. 25,H.E. Kayser,advanced,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-26.json,Etude No. 26,H.E. Kayser,advanced,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-27.json,Etude No. 27,H.E. Kayser,advanced,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-28.json,Etude No. 28,H.E. Kayser,advanced,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-29.json,Etude No. 29,H.E. Kayser,advanced,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-30.json,Etude No. 30,H.E. Kayser,advanced,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-31.json,Etude No. 31,H.E. Kayser,advanced,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-32.json,Etude No. 32,H.E. Kayser,advanced,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-33.json,Etude No. 33,H.E. Kayser,advanced,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-34.json,Etude No. 34,H.E. Kayser,advanced,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-35.json,Etude No. 35,H.E. Kayser,advanced,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-36.json,Etude No. 36,H.E. Kayser,advanced,staging,0.99,false
+kreutzer-42-studies,Kreutzer 42 Studies,violin/kreutzer-42-studies/etude-01.json,Etude No. 1,R. Kreutzer,advanced,staging,0.99,false
+kreutzer-42-studies,Kreutzer 42 Studies,violin/kreutzer-42-studies/etude-02.json,Etude No. 2,R. Kreutzer,advanced,staging,0.99,false
+kreutzer-42-studies,Kreutzer 42 Studies,violin/kreutzer-42-studies/etude-04.json,Etude No. 4,R. Kreutzer,advanced,staging,0.99,false
+kreutzer-42-studies,Kreutzer 42 Studies,violin/kreutzer-42-studies/etude-05.json,Etude No. 5,R. Kreutzer,advanced,staging,0.99,false
+kreutzer-42-studies,Kreutzer 42 Studies,violin/kreutzer-42-studies/etude-06.json,Etude No. 6,R. Kreutzer,advanced,staging,0.99,false
+kreutzer-42-studies,Kreutzer 42 Studies,violin/kreutzer-42-studies/etude-07.json,Etude No. 7,R. Kreutzer,advanced,staging,0.99,false
+kreutzer-42-studies,Kreutzer 42 Studies,violin/kreutzer-42-studies/etude-08.json,Etude No. 8,R. Kreutzer,advanced,staging,0.99,false
+kreutzer-42-studies,Kreutzer 42 Studies,violin/kreutzer-42-studies/etude-11.json,Etude No. 11,R. Kreutzer,advanced,staging,0.99,false
+kreutzer-42-studies,Kreutzer 42 Studies,violin/kreutzer-42-studies/etude-12.json,Etude No. 12,R. Kreutzer,advanced,staging,0.99,false
+kreutzer-42-studies,Kreutzer 42 Studies,violin/kreutzer-42-studies/etude-20.json,Etude No. 20,R. Kreutzer,advanced,staging,0.99,false
+kreutzer-42-studies,Kreutzer 42 Studies,violin/kreutzer-42-studies/etude-31.json,Etude No. 31,R. Kreutzer,advanced,staging,0.99,false
+kreutzer-42-studies,Kreutzer 42 Studies,violin/kreutzer-42-studies/etude-33.json,Etude No. 33,R. Kreutzer,advanced,staging,0.99,false
+kreutzer-42-studies,Kreutzer 42 Studies,violin/kreutzer-42-studies/etude-37.json,Etude No. 37,R. Kreutzer,advanced,staging,0.99,false
+kreutzer-42-studies,Kreutzer 42 Studies,violin/kreutzer-42-studies/etude-42.json,Etude No. 42,R. Kreutzer,advanced,staging,0.99,false
+rode-24-caprices,Rode 24 Caprices,violin/rode-24-caprices/caprice-05.json,Caprice No. 5,Pierre Rode,advanced,staging,0.99,false
+rode-24-caprices,Rode 24 Caprices,violin/rode-24-caprices/caprice-06.json,Caprice No. 6,Pierre Rode,advanced,staging,0.99,false
+rode-24-caprices,Rode 24 Caprices,violin/rode-24-caprices/caprice-08.json,Caprice No. 8,Pierre Rode,advanced,staging,0.99,false
+rode-24-caprices,Rode 24 Caprices,violin/rode-24-caprices/caprice-10.json,Caprice No. 10,Pierre Rode,advanced,staging,0.99,false
+rode-24-caprices,Rode 24 Caprices,violin/rode-24-caprices/caprice-22.json,Caprice No. 22,Pierre Rode,advanced,staging,0.99,false
+bach-for-violin,Bach for Violin,violin/bach-for-violin/air-on-the-g-string.json,Air on the G String,J.S. Bach,advanced,staging,0.99,false
+bach-for-violin,Bach for Violin,violin/bach-for-violin/cello-suite-no-1.json,Cello Suite No. 1,J.S. Bach,advanced,staging,0.99,false
+bach-for-violin,Bach for Violin,violin/bach-for-violin/cello-suite-no-1-in-g-major-bwv-1007-prelude.json,Cello Suite No. 1 in G Major BWV 1007 Prelude,J.S. Bach,advanced,staging,0.99,false
+bach-for-violin,Bach for Violin,violin/bach-for-violin/minuet-in-g-major.json,Minuet in G Major,J.S. Bach,advanced,staging,0.99,false
+bach-for-violin,Bach for Violin,violin/bach-for-violin/sonata-no-1-in-g-minor-bwv-1001-presto.json,Sonata No. 1 in G Minor BWV 1001 Presto,J.S. Bach,advanced,staging,0.99,false
+bach-for-violin,Bach for Violin,violin/bach-for-violin/concerto-for-two-violins-in-d-minor-bwv-1043-1st-mvt-violin-i.json,Concerto for Two Violins in D Minor BWV 1043 1st Mvt Violin I,J.S. Bach,advanced,staging,0.99,false
+bach-for-violin,Bach for Violin,violin/bach-for-violin/concerto-no-1-in-a-minor.json,Concerto No. 1 in A Minor,J.S. Bach,advanced,staging,0.99,false
+bach-for-violin,Bach for Violin,violin/bach-for-violin/gigue-from-partita-no-3-bwv-1006.json,Gigue from Partita No. 3 BWV 1006,J.S. Bach,advanced,staging,0.99,false
+bach-for-violin,Bach for Violin,violin/bach-for-violin/minuet-2.json,Minuet 2,J.S. Bach,advanced,staging,0.99,false
+bach-for-violin,Bach for Violin,violin/bach-for-violin/minuet-3.json,Minuet 3,J.S. Bach,advanced,staging,0.99,false
+bach-for-violin,Bach for Violin,violin/bach-for-violin/solo-violin-partita-no-2-in-d-minor-bwv-1004.json,Solo Violin Partita No. 2 in D Minor BWV 1004,J.S. Bach,advanced,staging,0.99,false
+bach-for-violin,Bach for Violin,violin/bach-for-violin/solo-violin-partita-no-3-in-e-major-bwv-1006.json,Solo Violin Partita No. 3 in E Major BWV 1006,J.S. Bach,advanced,staging,0.99,false
+bach-for-violin,Bach for Violin,violin/bach-for-violin/solo-violin-sonata-no-1-in-g-minor-bwv-1001.json,Solo Violin Sonata No. 1 in G Minor BWV 1001,J.S. Bach,advanced,staging,0.99,false
+bach-partita-3,Bach Partita No. 3,violin/bach-partita-3/gavotte-en-rondeau.json,Gavotte en Rondeau,J.S. Bach,intermediate,staging,,true
+bach-partita-3,Bach Partita No. 3,violin/bach-partita-3/gigue.json,Gigue,J.S. Bach,advanced,staging,,true

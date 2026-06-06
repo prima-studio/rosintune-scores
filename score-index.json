@@ -75,9 +75,9 @@
           "composer": "H.E. Kayser",
           "difficulty": "beginner",
           "stage": "published",
-          "isFree": true,
           "price": 0,
-          "version": 1
+          "version": 1,
+          "isFree": true
         },
         {
           "filename": "violin/kayser-36-studies/etude-02.json",
@@ -249,6 +249,150 @@
           "stage": "staging",
           "price": 0.99,
           "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-21.json",
+          "title": "Etude No. 21",
+          "composer": "H.E. Kayser",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-22.json",
+          "title": "Etude No. 22",
+          "composer": "H.E. Kayser",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-23.json",
+          "title": "Etude No. 23",
+          "composer": "H.E. Kayser",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-24.json",
+          "title": "Etude No. 24",
+          "composer": "H.E. Kayser",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-25.json",
+          "title": "Etude No. 25",
+          "composer": "H.E. Kayser",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-26.json",
+          "title": "Etude No. 26",
+          "composer": "H.E. Kayser",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-27.json",
+          "title": "Etude No. 27",
+          "composer": "H.E. Kayser",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-28.json",
+          "title": "Etude No. 28",
+          "composer": "H.E. Kayser",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-29.json",
+          "title": "Etude No. 29",
+          "composer": "H.E. Kayser",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-30.json",
+          "title": "Etude No. 30",
+          "composer": "H.E. Kayser",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-31.json",
+          "title": "Etude No. 31",
+          "composer": "H.E. Kayser",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-32.json",
+          "title": "Etude No. 32",
+          "composer": "H.E. Kayser",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-33.json",
+          "title": "Etude No. 33",
+          "composer": "H.E. Kayser",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-34.json",
+          "title": "Etude No. 34",
+          "composer": "H.E. Kayser",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-35.json",
+          "title": "Etude No. 35",
+          "composer": "H.E. Kayser",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kayser-36-studies/etude-36.json",
+          "title": "Etude No. 36",
+          "composer": "H.E. Kayser",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
         }
       ]
     },
@@ -266,20 +410,22 @@
           "composer": "Traditional",
           "difficulty": "beginner",
           "stage": "published",
-          "version": 1
-        },
-        {
-          "filename": "violin/example/twinkle.json",
-          "title": "Twinkle Twinkle Little Star",
-          "composer": "Traditional",
-          "difficulty": "beginner",
-          "stage": "published",
+          "price": 0.0,
           "version": 1
         },
         {
           "filename": "violin/example/ode-to-joy.json",
           "title": "Ode to Joy",
           "composer": "L. van Beethoven",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0.0,
+          "version": 1
+        },
+        {
+          "filename": "violin/example/twinkle.json",
+          "title": "Twinkle Twinkle Little Star",
+          "composer": "Traditional",
           "difficulty": "beginner",
           "stage": "published",
           "version": 1
@@ -400,6 +546,324 @@
           "difficulty": "beginner",
           "stage": "published",
           "price": 0,
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "kreutzer-42-studies",
+      "title": "Kreutzer 42 Studies",
+      "subtitle": "42 \u00c9tudes ou Caprices",
+      "composer": "R. Kreutzer",
+      "isFree": false,
+      "sortOrder": 3,
+      "scores": [
+        {
+          "filename": "violin/kreutzer-42-studies/etude-01.json",
+          "title": "Etude No. 1",
+          "composer": "R. Kreutzer",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kreutzer-42-studies/etude-02.json",
+          "title": "Etude No. 2",
+          "composer": "R. Kreutzer",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kreutzer-42-studies/etude-04.json",
+          "title": "Etude No. 4",
+          "composer": "R. Kreutzer",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kreutzer-42-studies/etude-05.json",
+          "title": "Etude No. 5",
+          "composer": "R. Kreutzer",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kreutzer-42-studies/etude-06.json",
+          "title": "Etude No. 6",
+          "composer": "R. Kreutzer",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kreutzer-42-studies/etude-07.json",
+          "title": "Etude No. 7",
+          "composer": "R. Kreutzer",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kreutzer-42-studies/etude-08.json",
+          "title": "Etude No. 8",
+          "composer": "R. Kreutzer",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kreutzer-42-studies/etude-11.json",
+          "title": "Etude No. 11",
+          "composer": "R. Kreutzer",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kreutzer-42-studies/etude-12.json",
+          "title": "Etude No. 12",
+          "composer": "R. Kreutzer",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kreutzer-42-studies/etude-20.json",
+          "title": "Etude No. 20",
+          "composer": "R. Kreutzer",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kreutzer-42-studies/etude-31.json",
+          "title": "Etude No. 31",
+          "composer": "R. Kreutzer",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kreutzer-42-studies/etude-33.json",
+          "title": "Etude No. 33",
+          "composer": "R. Kreutzer",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kreutzer-42-studies/etude-37.json",
+          "title": "Etude No. 37",
+          "composer": "R. Kreutzer",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/kreutzer-42-studies/etude-42.json",
+          "title": "Etude No. 42",
+          "composer": "R. Kreutzer",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "rode-24-caprices",
+      "title": "Rode 24 Caprices",
+      "subtitle": "Op. 22",
+      "composer": "Pierre Rode",
+      "isFree": false,
+      "sortOrder": 4,
+      "scores": [
+        {
+          "filename": "violin/rode-24-caprices/caprice-05.json",
+          "title": "Caprice No. 5",
+          "composer": "Pierre Rode",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/rode-24-caprices/caprice-06.json",
+          "title": "Caprice No. 6",
+          "composer": "Pierre Rode",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/rode-24-caprices/caprice-08.json",
+          "title": "Caprice No. 8",
+          "composer": "Pierre Rode",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/rode-24-caprices/caprice-10.json",
+          "title": "Caprice No. 10",
+          "composer": "Pierre Rode",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/rode-24-caprices/caprice-22.json",
+          "title": "Caprice No. 22",
+          "composer": "Pierre Rode",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "bach-for-violin",
+      "title": "Bach for Violin",
+      "subtitle": null,
+      "composer": "J.S. Bach",
+      "isFree": false,
+      "sortOrder": 5,
+      "scores": [
+        {
+          "filename": "violin/bach-for-violin/air-on-the-g-string.json",
+          "title": "Air on the G String",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-for-violin/cello-suite-no-1.json",
+          "title": "Cello Suite No. 1",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-for-violin/cello-suite-no-1-in-g-major-bwv-1007-prelude.json",
+          "title": "Cello Suite No. 1 in G Major BWV 1007 Prelude",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-for-violin/minuet-in-g-major.json",
+          "title": "Minuet in G Major",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-for-violin/sonata-no-1-in-g-minor-bwv-1001-presto.json",
+          "title": "Sonata No. 1 in G Minor BWV 1001 Presto",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-for-violin/concerto-for-two-violins-in-d-minor-bwv-1043-1st-mvt-violin-i.json",
+          "title": "Concerto for Two Violins in D Minor BWV 1043 1st Mvt Violin I",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-for-violin/concerto-no-1-in-a-minor.json",
+          "title": "Concerto No. 1 in A Minor",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-for-violin/gigue-from-partita-no-3-bwv-1006.json",
+          "title": "Gigue from Partita No. 3 BWV 1006",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-for-violin/minuet-2.json",
+          "title": "Minuet 2",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-for-violin/minuet-3.json",
+          "title": "Minuet 3",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-for-violin/solo-violin-partita-no-2-in-d-minor-bwv-1004.json",
+          "title": "Solo Violin Partita No. 2 in D Minor BWV 1004",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-for-violin/solo-violin-partita-no-3-in-e-major-bwv-1006.json",
+          "title": "Solo Violin Partita No. 3 in E Major BWV 1006",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-for-violin/solo-violin-sonata-no-1-in-g-minor-bwv-1001.json",
+          "title": "Solo Violin Sonata No. 1 in G Minor BWV 1001",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
           "version": 1
         }
       ]

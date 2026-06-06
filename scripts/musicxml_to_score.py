@@ -14,11 +14,15 @@ Example:
 import argparse
 import json
 import os
+import re
 import sys
 import zipfile
 import xml.etree.ElementTree as ET
 from collections import Counter
 from itertools import groupby
+
+# part-name patterns that identify the solo violin line (en/fr/ru/jp)
+VIOLIN_RE = re.compile(r"viol|violon|скрип|ヴァイオリン|バイオリン|小提琴", re.I)
 
 from midi_to_score import VIOLIN_FIRST_POS, MIDDLE_LINE  # reuse violin mapping
 
@@ -86,10 +90,30 @@ def text_of(el, tag, default=None):
     return f.text if f is not None and f.text is not None else default
 
 
-def convert(root, args):
-    part = root.find(".//part")
-    if part is None:
+def pick_part(root, part_index=None):
+    """Return the <part> to convert. Default: the part whose <part-name> looks
+    like a violin (handles sources where piano/flute is listed first). Falls
+    back to the first part (covers single-part files that are merely mislabeled).
+    A 0-based --part-index overrides the auto-detection."""
+    parts = root.findall(".//part")
+    if not parts:
         sys.exit("error: no <part> found")
+    if part_index is not None:
+        if not 0 <= part_index < len(parts):
+            sys.exit(f"error: --part-index {part_index} out of range (0..{len(parts)-1})")
+        return parts[part_index]
+    names = {}
+    for sp in root.findall(".//part-list/score-part"):
+        pn = sp.find("part-name")
+        names[sp.get("id")] = (pn.text or "") if pn is not None else ""
+    for p in parts:
+        if VIOLIN_RE.search(names.get(p.get("id"), "")):
+            return p
+    return parts[0]
+
+
+def convert(root, args):
+    part = pick_part(root, getattr(args, "part_index", None))
 
     # grace notes carry no metric duration and are dropped (no grace support yet)
     grace_count = sum(1 for n in part.iter("note") if n.find("grace") is not None)
@@ -209,7 +233,13 @@ def convert(root, args):
                 last_tonic_pc = nobj["_midi"] % 12
                 break
 
-        mobj = {"number": int(m.get("number"))}
+        # Measure numbers are usually plain ints, but engravers emit non-numeric
+        # ids ("X1", "X2") for split/pickup bars -- keep the digits, else count.
+        raw = m.get("number") or ""
+        digits = re.sub(r"[^0-9]", "", raw)
+        mnum = int(digits) if digits else (
+            measures_out[-1][0]["number"] + 1 if measures_out else 0)
+        mobj = {"number": mnum}
         if dyn_marks:
             mobj["dynamics"] = [{"beat": round(b, 4), "text": t} for b, t in dyn_marks]
         # strip private fields
@@ -431,6 +461,8 @@ def main():
     ap.add_argument("--no-fingering", action="store_true")
     ap.add_argument("--staff", type=int, default=None,
                     help="extract only this staff (grand-staff/piano sources; melody is usually 1)")
+    ap.add_argument("--part-index", type=int, default=None,
+                    help="0-based part to convert (default: auto-detect the violin part)")
     args = ap.parse_args()
 
     root = load_root(args.input)
