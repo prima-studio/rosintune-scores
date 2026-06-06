@@ -2,3 +2,9 @@ third_party/
 thirdparty/
 assets/
 .DS_Store
+.env
+*.p8
+.venv/
+__pycache__/
+*.pyc
+*~
