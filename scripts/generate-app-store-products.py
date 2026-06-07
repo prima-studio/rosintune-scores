@@ -14,6 +14,7 @@ import json
 import csv
 import sys
 import os
+import unicodedata
 
 INDEX_PATH = os.path.join(os.path.dirname(__file__), "..", "score-index.json")
 
@@ -24,7 +25,12 @@ def load_index():
 
 
 def sanitize(text: str) -> str:
-    """Keep only alphanumeric, period, and underscore characters. Hyphens become underscores."""
+    """App Store Connect product IDs are ASCII [A-Za-z0-9._]. Fold accents to
+    ASCII (Bourrée -> Bourree), drop anything else (em dash, spaces). Hyphens
+    become underscores. NOTE: isalnum() alone keeps Unicode letters, which the
+    App Store rejects -- the ascii round-trip is what enforces ASCII-only."""
+    text = unicodedata.normalize("NFKD", text)
+    text = text.encode("ascii", "ignore").decode("ascii")
     text = text.replace("-", "_")
     return "".join(c for c in text if c.isalnum() or c in "._")
 

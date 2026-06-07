@@ -12,10 +12,12 @@ Example:
       --difficulty beginner
 """
 import argparse
+import copy
 import json
 import os
 import re
 import sys
+import unicodedata
 import zipfile
 import xml.etree.ElementTree as ET
 from collections import Counter
@@ -110,6 +112,91 @@ def pick_part(root, part_index=None):
         if VIOLIN_RE.search(names.get(p.get("id"), "")):
             return p
     return parts[0]
+
+
+ROMAN = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X",
+         "XI", "XII", "XIII", "XIV", "XV"]
+
+
+def slugify(text):
+    """Lowercase ascii slug; folds accents so 'Bourrée' -> 'bourree'."""
+    text = unicodedata.normalize("NFKD", text)
+    text = "".join(c for c in text if not unicodedata.combining(c))
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+
+
+def _measure_heading(m):
+    """The movement name engraved in a measure, or None. Multi-movement works
+    print the heading as a <words> direction at the movement's first bar; when a
+    bar carries several (e.g. 'Allegro' then 'Fuga'), the LAST is the name."""
+    found = None
+    for d in m.findall("direction"):
+        for w in d.findall(".//words"):
+            if w.text and w.text.strip():
+                found = w.text.strip()
+    return found
+
+
+def _ensure_attrs(m, divisions, key):
+    """Make a movement's first measure self-contained by injecting the running
+    divisions / key if it only re-declared <time>. Element order is irrelevant
+    to convert() (it looks tags up by name), so we just append what's missing."""
+    attrs = m.find("attributes")
+    if attrs is None:
+        attrs = ET.Element("attributes")
+        m.insert(0, attrs)
+    if attrs.find("divisions") is None and divisions is not None:
+        attrs.append(copy.deepcopy(divisions))
+    if attrs.find("key") is None and key is not None:
+        attrs.append(copy.deepcopy(key))
+
+
+def _build_subroot(root, part, measures):
+    """A self-contained <score-partwise> holding one movement's measures
+    (renumbered from 1), reusing the original <part-list> so pick_part() still
+    finds the violin line."""
+    new = ET.Element("score-partwise")
+    pl = root.find(".//part-list")
+    if pl is not None:
+        new.append(copy.deepcopy(pl))
+    np = ET.SubElement(new, "part", {"id": part.get("id") or "P1"})
+    for i, m in enumerate(measures, start=1):
+        mm = copy.deepcopy(m)
+        mm.set("number", str(i))
+        np.append(mm)
+    return new
+
+
+def split_into_movements(root):
+    """Split a multi-movement score into [(name, sub_root), ...]. A boundary is a
+    measure that declares an explicit <time> together with a <words> heading.
+    Returns [(None, root)] when no internal boundary exists (single movement)."""
+    part = pick_part(root)
+    divisions = key = None
+    segs = []                       # (name, [measures])
+    name, cur = None, []
+    for m in part.findall("measure"):
+        attrs = m.find("attributes")
+        time_el = attrs.find("time") if attrs is not None else None
+        heading = _measure_heading(m)
+        if attrs is not None:
+            if attrs.find("divisions") is not None:
+                divisions = attrs.find("divisions")
+            if attrs.find("key") is not None:
+                key = attrs.find("key")
+        if time_el is not None and heading and cur:   # start of a new movement
+            segs.append((name, cur))
+            cur = []
+        if time_el is not None and heading:
+            name = heading
+        if not cur:                                   # first bar of a segment
+            _ensure_attrs(m, divisions, key)
+        cur.append(m)
+    if cur:
+        segs.append((name, cur))
+    if len(segs) <= 1:
+        return [(segs[0][0] if segs else None, root)]
+    return [(nm, _build_subroot(root, part, ms)) for nm, ms in segs]
 
 
 def convert(root, args):
@@ -463,9 +550,19 @@ def main():
                     help="extract only this staff (grand-staff/piano sources; melody is usually 1)")
     ap.add_argument("--part-index", type=int, default=None,
                     help="0-based part to convert (default: auto-detect the violin part)")
+    ap.add_argument("--split", action="store_true",
+                    help="split a multi-movement work into one JSON per movement; "
+                         "OUTPUT is treated as a directory and a JSON manifest is "
+                         "printed to stdout")
+    ap.add_argument("--slug-prefix", default="",
+                    help="filename prefix for --split outputs (e.g. 'bwv1001'); "
+                         "defaults to a slug of --title")
     args = ap.parse_args()
 
     root = load_root(args.input)
+    if args.split:
+        split_main(root, args)
+        return
     doc = convert(root, args)
     with open(args.output, "w") as f:
         json.dump(doc, f, indent=2)
@@ -474,6 +571,36 @@ def main():
     n_notes = sum(len(m["notes"]) for m in doc["measures"])
     print(f"{os.path.basename(args.output)}: key={md['key']} ts={md['timeSignature']} "
           f"tempo={md['tempo']} measures={len(doc['measures'])} notes={n_notes}")
+
+
+def split_main(root, args):
+    """Write one JSON per movement into the OUTPUT directory and print a JSON
+    manifest (list of per-movement dicts) on stdout for the build pipeline."""
+    movements = split_into_movements(root)
+    outdir = args.output
+    os.makedirs(outdir, exist_ok=True)
+    work = args.title                       # --title carries the WORK title
+    prefix = args.slug_prefix or slugify(work) or "movement"
+    manifest = []
+    for idx, (name, sub) in enumerate(movements, start=1):
+        doc = convert(sub, args)
+        name = name or f"Movement {idx}"
+        roman = ROMAN[idx] if idx < len(ROMAN) else str(idx)
+        title = f"{work} — {roman}. {name}" if work else f"{roman}. {name}"
+        doc["metadata"]["title"] = title
+        fname = f"{prefix}-{idx:02d}-{slugify(name)}.json"
+        with open(os.path.join(outdir, fname), "w") as f:
+            json.dump(doc, f, indent=2)
+            f.write("\n")
+        manifest.append({
+            "file": fname, "title": title, "movement": idx, "name": name,
+            "key": doc["metadata"]["key"],
+            "timeSignature": doc["metadata"]["timeSignature"],
+            "tempo": doc["metadata"]["tempo"],
+            "measures": len(doc["measures"]),
+            "notes": sum(len(m["notes"]) for m in doc["measures"]),
+        })
+    print(json.dumps(manifest))
 
 
 if __name__ == "__main__":

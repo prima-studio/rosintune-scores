@@ -242,15 +242,6 @@
           "version": 1
         },
         {
-          "filename": "violin/kayser-36-studies/etude-20.json",
-          "title": "Etude No. 20",
-          "composer": "H.E. Kayser",
-          "difficulty": "intermediate",
-          "stage": "staging",
-          "price": 0.99,
-          "version": 1
-        },
-        {
           "filename": "violin/kayser-36-studies/etude-21.json",
           "title": "Etude No. 21",
           "composer": "H.E. Kayser",
@@ -656,33 +647,6 @@
           "stage": "staging",
           "price": 0.99,
           "version": 1
-        },
-        {
-          "filename": "violin/kreutzer-42-studies/etude-33.json",
-          "title": "Etude No. 33",
-          "composer": "R. Kreutzer",
-          "difficulty": "advanced",
-          "stage": "staging",
-          "price": 0.99,
-          "version": 1
-        },
-        {
-          "filename": "violin/kreutzer-42-studies/etude-37.json",
-          "title": "Etude No. 37",
-          "composer": "R. Kreutzer",
-          "difficulty": "advanced",
-          "stage": "staging",
-          "price": 0.99,
-          "version": 1
-        },
-        {
-          "filename": "violin/kreutzer-42-studies/etude-42.json",
-          "title": "Etude No. 42",
-          "composer": "R. Kreutzer",
-          "difficulty": "advanced",
-          "stage": "staging",
-          "price": 0.99,
-          "version": 1
         }
       ]
     },
@@ -786,15 +750,6 @@
           "version": 1
         },
         {
-          "filename": "violin/bach-for-violin/sonata-no-1-in-g-minor-bwv-1001-presto.json",
-          "title": "Sonata No. 1 in G Minor BWV 1001 Presto",
-          "composer": "J.S. Bach",
-          "difficulty": "advanced",
-          "stage": "staging",
-          "price": 0.99,
-          "version": 1
-        },
-        {
           "filename": "violin/bach-for-violin/concerto-for-two-violins-in-d-minor-bwv-1043-1st-mvt-violin-i.json",
           "title": "Concerto for Two Violins in D Minor BWV 1043 1st Mvt Violin I",
           "composer": "J.S. Bach",
@@ -840,8 +795,27 @@
           "version": 1
         },
         {
-          "filename": "violin/bach-for-violin/solo-violin-partita-no-2-in-d-minor-bwv-1004.json",
-          "title": "Solo Violin Partita No. 2 in D Minor BWV 1004",
+          "filename": "violin/bach-for-violin/sonata-no-1-in-g-minor-bwv-1001-presto.json",
+          "title": "Sonata No. 1 in G Minor BWV 1001 Presto",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        }
+      ]
+    },
+    {
+      "id": "bach-sonatas-partitas",
+      "title": "Bach Sonatas & Partitas",
+      "subtitle": "Sei Solo, BWV 1001\u20131006",
+      "composer": "J.S. Bach",
+      "isFree": false,
+      "sortOrder": 6,
+      "scores": [
+        {
+          "filename": "violin/bach-sonatas-partitas/bwv1003-04-allegro.json",
+          "title": "Sonata No. 2 in A Minor \u2014 IV. Allegro",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
@@ -849,8 +823,8 @@
           "version": 1
         },
         {
-          "filename": "violin/bach-for-violin/solo-violin-partita-no-3-in-e-major-bwv-1006.json",
-          "title": "Solo Violin Partita No. 3 in E Major BWV 1006",
+          "filename": "violin/bach-sonatas-partitas/bwv1002-01-allemanda.json",
+          "title": "Partita No. 1 in B Minor \u2014 I. Allemanda",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
@@ -858,8 +832,116 @@
           "version": 1
         },
         {
-          "filename": "violin/bach-for-violin/solo-violin-sonata-no-1-in-g-minor-bwv-1001.json",
-          "title": "Solo Violin Sonata No. 1 in G Minor BWV 1001",
+          "filename": "violin/bach-sonatas-partitas/bwv1002-02-double.json",
+          "title": "Partita No. 1 in B Minor \u2014 II. Double",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-sonatas-partitas/bwv1002-03-corrente.json",
+          "title": "Partita No. 1 in B Minor \u2014 III. Corrente",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-sonatas-partitas/bwv1002-04-double.json",
+          "title": "Partita No. 1 in B Minor \u2014 IV. Double",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-sonatas-partitas/bwv1002-06-double.json",
+          "title": "Partita No. 1 in B Minor \u2014 VI. Double",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-sonatas-partitas/bwv1002-08-double.json",
+          "title": "Partita No. 1 in B Minor \u2014 VIII. Double",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-sonatas-partitas/bwv1005-04-allegro-assai.json",
+          "title": "Sonata No. 3 in C Major \u2014 IV. Allegro assai",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-sonatas-partitas/bwv1004-01-allemanda.json",
+          "title": "Partita No. 2 in D Minor \u2014 I. Allemanda",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-sonatas-partitas/bwv1004-02-corrente.json",
+          "title": "Partita No. 2 in D Minor \u2014 II. Corrente",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-sonatas-partitas/bwv1004-04-giga.json",
+          "title": "Partita No. 2 in D Minor \u2014 IV. Giga",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-sonatas-partitas/bwv1006-01-preludio.json",
+          "title": "Partita No. 3 in E Major \u2014 I. Preludio",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-sonatas-partitas/bwv1006-06-bourree.json",
+          "title": "Partita No. 3 in E Major \u2014 VI. Bourr\u00e9e",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-sonatas-partitas/bwv1006-07-gigue.json",
+          "title": "Partita No. 3 in E Major \u2014 VII. Gigue",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1
+        },
+        {
+          "filename": "violin/bach-sonatas-partitas/bwv1001-04-presto.json",
+          "title": "Sonata No. 1 in G Minor \u2014 IV. Presto",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",

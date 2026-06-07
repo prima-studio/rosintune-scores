@@ -52,6 +52,9 @@ BEATS = {"whole": 4.0, "dotted-half": 3.0, "half": 2.0, "dotted-quarter": 1.5,
 # durations/features the shipping iOS build handles without RENDERER_NOTES changes
 IOS_SUPPORTED = {"whole", "half", "quarter", "eighth", "16th",
                  "dotted-half", "dotted-quarter"}
+# A piece whose share of double-stop (chord) notes exceeds this is dropped: too
+# chord-heavy for the single-line reader. Computed over sounding (pitched) notes.
+MAX_DOUBLE_STOP = 0.10
 
 # Sources to exclude entirely (copyright). Matched as substrings of the path.
 SKIP_SUBSTR = [
@@ -130,6 +133,14 @@ FOLDERS = [
     dict(folder="violin/bach", collection="bach-for-violin",
          coll_title="Bach for Violin", subtitle=None, coll_composer="J.S. Bach",
          is_free=False, sort=5, out_dir="violin/bach-for-violin", scheme="named",
+         composer="J.S. Bach", difficulty=lambda key: "advanced", price=0.99,
+         stage="staging"),
+    # The 6 Sonatas & Partitas for solo violin: each source is a multi-movement
+    # work, split into one JSON per movement (each movement has a single meter).
+    dict(folder="violin/bach-sonatas-partitas", collection="bach-sonatas-partitas",
+         coll_title="Bach Sonatas & Partitas", subtitle="Sei Solo, BWV 1001–1006",
+         coll_composer="J.S. Bach", is_free=False, sort=6,
+         out_dir="violin/bach-sonatas-partitas", scheme="movements",
          composer="J.S. Bach", difficulty=lambda key: "advanced", price=0.99,
          stage="staging"),
 ]
@@ -275,9 +286,11 @@ def eff_beats(note):
 
 
 def validate(path):
-    """Return (bad_bars, ios_needs, nbars). bad_bars are measures whose beats
-    don't match the (single, global) time signature -- a strong signal for
-    multi-movement works that change meter, which this one-TS JSON can't model."""
+    """Return (bad_bars, ios_needs, nbars, ds_ratio). bad_bars are measures whose
+    beats don't match the (single, global) time signature -- a strong signal for
+    multi-movement works that change meter, which this one-TS JSON can't model.
+    ds_ratio is the fraction of sounding (pitched) notes that are double stops
+    (carry a `chord`), used to drop chord-heavy pieces."""
     d = json.load(open(path))
     num, den = (int(x) for x in d["metadata"]["timeSignature"].split("/"))
     bar = num * (4.0 / den)
@@ -285,6 +298,7 @@ def validate(path):
     last = d["measures"][-1]["number"] if d["measures"] else 0
     first = d["measures"][0]["number"] if d["measures"] else 0
     bad, needs = [], set()
+    pitched = double_stops = 0
     for m in d["measures"]:
         s = 0.0
         for n in m["notes"]:
@@ -294,10 +308,15 @@ def validate(path):
                 needs.add("tuplet")
             if n.get("chord"):
                 needs.add("chord")
+            if n.get("pitch") is not None:
+                pitched += 1
+                if n.get("chord"):
+                    double_stops += 1
             s += eff_beats(n)
         if abs(s - bar) > 1e-6 and m["number"] not in (first, last):
             bad.append((m["number"], round(s, 3)))
-    return bad, needs, nbars
+    ds_ratio = (double_stops / pitched) if pitched else 0.0
+    return bad, needs, nbars, ds_ratio
 
 
 # --------------------------------------------------------------------------- #
@@ -333,6 +352,33 @@ def read_xml_composer(path):
 def common_xml_composer(files):
     c = Counter(x for x in (read_xml_composer(f) for f in files) if x)
     return c.most_common(1)[0][0] if c else None
+
+
+def read_work_title(path):
+    """The <work-title>/<movement-title> from a source (e.g. 'Sonata No. 1 in G
+    Minor'), used to name a multi-movement work whose filename is unreliable."""
+    try:
+        from musicxml_to_score import load_root
+        root = load_root(path)
+        for tag in ("work-title", "movement-title"):
+            e = root.find(f".//{tag}")
+            if e is not None and e.text and e.text.strip():
+                return e.text.strip()
+    except Exception:
+        pass
+    return None
+
+
+def key_from_filename(stem):
+    """Home key encoded in a filename ('...-in-g-minor-...' -> 'G Minor'). These
+    Baroque scores use one-flat-short signatures that defeat auto key detection,
+    so we pass the work key explicitly."""
+    m = re.search(r"in-([a-g])(?:-(sharp|flat))?-(minor|major)", stem.lower())
+    if not m:
+        return None
+    note = m.group(1).upper()
+    note += {"sharp": "#", "flat": "b"}.get(m.group(2), "")
+    return f"{note} {m.group(3).capitalize()}"
 
 
 def auto_folder_cfg(folder_rel, files):
@@ -443,6 +489,19 @@ def plan_folder(cfg):
                 difficulty=cfg["difficulty"](title), price=cfg["price"],
                 stage=cfg["stage"], free=(cfg["price"] == 0)))
 
+    elif cfg["scheme"] == "movements":
+        for f in sorted(files):
+            stem = os.path.basename(os.path.splitext(f)[0])
+            mb = re.search(r"bwv[-\s]*(\d+)", stem.lower())
+            prefix = (f"bwv{mb.group(1)}" if mb
+                      else re.sub(r"[^a-z0-9]+", "-", stem.lower()).strip("-"))
+            work_title = read_work_title(f) or clean_title(stem)
+            pieces.append(dict(
+                src=f, split=True, slug_prefix=prefix, work_title=work_title,
+                key=key_from_filename(stem), out_dir=cfg["out_dir"],
+                composer=cfg["composer"], difficulty=cfg["difficulty"](work_title),
+                price=cfg["price"], stage=cfg["stage"], free=(cfg["price"] == 0)))
+
     return pieces, skipped
 
 
@@ -463,9 +522,26 @@ def existing_entries(index):
     return out
 
 
+def too_many_double_stops(ratio, out, prior):
+    """Decide whether a converted piece is too chord-heavy to add. Deletes its
+    JSON and returns a skip reason string, or None to keep it. Loudly notes when
+    the dropped piece was previously published so the removal isn't silent."""
+    if ratio <= MAX_DOUBLE_STOP:
+        return None
+    out_abs = os.path.join(SCORES, out)
+    if os.path.exists(out_abs):
+        os.remove(out_abs)
+    note = ""
+    if prior and prior.get("stage") == "published":
+        note = "  ⚠ was PUBLISHED — now dropped"
+    return f"double-stops {ratio * 100:.0f}% > {MAX_DOUBLE_STOP * 100:.0f}%{note}"
+
+
 def convert_piece(piece, prior):
     """Run the converter, honoring any curated title/composer/difficulty/free
-    from a pre-existing index entry. Returns (entry, bad_bars, needs) or None."""
+    from a pre-existing index entry. Returns a tagged result:
+    ("ok", (entry, bad, needs, multimeter)) | ("skip", (out, reason)) |
+    ("fail", None)."""
     title = prior.get("title", piece["title"]) if prior else piece["title"]
     composer = prior.get("composer", piece["composer"]) if prior else piece["composer"]
     difficulty = prior.get("difficulty", piece["difficulty"]) if prior else piece["difficulty"]
@@ -481,8 +557,11 @@ def convert_piece(piece, prior):
     r = subprocess.run(cmd, capture_output=True, text=True)
     if r.returncode != 0:
         print(f"  FAIL {piece['out']}:\n{indent(r.stderr)}")
-        return None
-    bad, needs, nbars = validate(out_abs)
+        return ("fail", None)
+    bad, needs, nbars, ds_ratio = validate(out_abs)
+    reason = too_many_double_stops(ds_ratio, piece["out"], prior)
+    if reason:
+        return ("skip", (piece["out"], reason))
     multimeter = bool(bad) and len(bad) > max(4, 0.2 * nbars)
     # build the index entry: curated fields win, defaults fill the rest
     entry = {
@@ -504,7 +583,64 @@ def convert_piece(piece, prior):
         bad_note = ""
     need_note = f"  needs_ios={sorted(needs)}" if needs else ""
     print(f"  {msg}{bad_note}{need_note}")
-    return entry, bad, needs, multimeter
+    return ("ok", (entry, bad, needs, multimeter))
+
+
+def convert_split_piece(piece, prior):
+    """Split a multi-movement source into one JSON per movement (movements scheme)
+    and return a result tuple per movement. Per-movement curation in the index
+    (keyed by the movement's output filename) is preserved across re-runs."""
+    out_abs_dir = os.path.join(SCORES, piece["out_dir"])
+    os.makedirs(out_abs_dir, exist_ok=True)
+    cmd = [sys.executable, CONVERTER, piece["src"], out_abs_dir, "--split",
+           "--slug-prefix", piece["slug_prefix"], "--title", piece["work_title"],
+           "--composer", piece["composer"] or "Unknown",
+           "--collection", piece["collection"], "--difficulty", piece["difficulty"]]
+    if piece.get("key"):
+        cmd += ["--key", piece["key"]]
+    cmd += ["--free"] if piece["free"] else ["--no-free"]
+    r = subprocess.run(cmd, capture_output=True, text=True)
+    if r.returncode != 0:
+        print(f"  FAIL {piece['slug_prefix']}:\n{indent(r.stderr)}")
+        return []
+    lines = r.stdout.strip().splitlines()
+    try:
+        manifest = json.loads(lines[-1]) if lines else []
+    except (ValueError, IndexError) as e:
+        print(f"  FAIL manifest {piece['slug_prefix']}: {e}")
+        return []
+    print(f"  {piece['work_title']} -> {len(manifest)} movements")
+    results = []
+    for mv in manifest:
+        relout = os.path.join(piece["out_dir"], mv["file"])
+        p = prior.get(relout)
+        bad, needs, nbars, ds_ratio = validate(os.path.join(SCORES, relout))
+        reason = too_many_double_stops(ds_ratio, relout, p)
+        if reason:
+            print(f"    skip {mv['file']}  [{reason}]")
+            results.append(("skip", (relout, reason)))
+            continue
+        multimeter = bool(bad) and len(bad) > max(4, 0.2 * nbars)
+        entry = {
+            "filename": relout,
+            "title": p.get("title", mv["title"]) if p else mv["title"],
+            "composer": p.get("composer", piece["composer"]) if p else piece["composer"],
+            "difficulty": p.get("difficulty", piece["difficulty"]) if p else piece["difficulty"],
+            "stage": p.get("stage", piece["stage"]) if p else piece["stage"],
+            "price": p.get("price", piece["price"]) if p else piece["price"],
+            "version": p.get("version", 1) if p else 1,
+        }
+        if (p.get("isFree") if p else piece["free"]):
+            entry["isFree"] = True
+        bn = ""
+        if bad:
+            shown = ", ".join(f"m{n}={b}" for n, b in bad[:4])
+            bn = f"  bad_bars=[{shown}{', …' if len(bad) > 4 else ''}]"
+        nn = f"  needs_ios={sorted(needs)}" if needs else ""
+        print(f"    {mv['file']}: {mv['key']} {mv['timeSignature']} "
+              f"bars={mv['measures']} notes={mv['notes']}{bn}{nn}")
+        results.append(("ok", (entry, bad, needs, multimeter)))
+    return results
 
 
 def indent(text, pad="    "):
@@ -608,6 +744,7 @@ def main():
         sys.exit(f"no collections match --only {args.only}")
 
     all_skips, all_needs, review, auto_added = [], set(), [], []
+    ds_skips = []                           # dropped post-conversion: too chord-heavy
     claimed = set()                         # every source we converted or skipped
     total_pieces = total_bad = 0
 
@@ -623,25 +760,39 @@ def main():
         if args.dry_run:
             for p in pieces:
                 t = "FREE" if p["free"] else f"${p['price']}"
-                print(f"  plan {os.path.relpath(p['src'], ASSETS)}  ->  "
-                      f"{p['out']}  ({p['title']}, {p['difficulty']}, {t}, {p['stage']})")
+                if p.get("split"):
+                    print(f"  plan {os.path.relpath(p['src'], ASSETS)}  ->  "
+                          f"{p['out_dir']}/{p['slug_prefix']}-NN-*.json  "
+                          f"(split: {p['work_title']}, {p.get('key')}, "
+                          f"{p['difficulty']}, {t}, {p['stage']})")
+                else:
+                    print(f"  plan {os.path.relpath(p['src'], ASSETS)}  ->  "
+                          f"{p['out']}  ({p['title']}, {p['difficulty']}, {t}, {p['stage']})")
             continue
 
         entries = []
         for p in pieces:
             p["collection"] = cfg["collection"]
-            res = convert_piece(p, prior.get(p["out"]))
-            if res is None:
-                continue
-            entry, bad, needs, multimeter = res
-            entries.append(entry)
-            total_pieces += 1
-            total_bad += 1 if bad else 0
-            all_needs |= needs
-            if multimeter:
-                review.append(p["out"])
-            if cfg.get("auto"):
-                auto_added.append(p["out"])
+            if p.get("split"):
+                ress = convert_split_piece(p, prior)
+            else:
+                ress = [convert_piece(p, prior.get(p["out"]))]
+            for kind, data in ress:
+                if kind == "ok":
+                    entry, bad, needs, multimeter = data
+                    entries.append(entry)
+                    total_pieces += 1
+                    total_bad += 1 if bad else 0
+                    all_needs |= needs
+                    if multimeter:
+                        review.append(entry["filename"])
+                    if cfg.get("auto"):
+                        auto_added.append(entry["filename"])
+                elif kind == "skip":
+                    out, reason = data
+                    ds_skips.append((out, reason))
+                    if not p.get("split"):           # split prints its own skip line
+                        print(f"  skip {out}  [{reason}]")
         merge_collection(index, cfg, entries)
 
     if args.dry_run:
@@ -668,6 +819,10 @@ def main():
     print("\n" + "=" * 60)
     print(f"converted {total_pieces} pieces "
           f"({total_bad} with non-trivial bad bars), {len(all_skips)} skipped")
+    if ds_skips:
+        print(f"dropped (>{MAX_DOUBLE_STOP * 100:.0f}% double stops): {len(ds_skips)}")
+        for out, reason in ds_skips:
+            print(f"  - {out}  [{reason}]")
     if all_needs:
         print(f"iOS support needed across set: {sorted(all_needs)}")
     if auto_added:

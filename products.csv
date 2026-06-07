@@ -20,7 +20,6 @@ kayser_36_studies.EtudeNo.16,Etude No. 16 (Kayser 36 Studies),Non-Consumable,0.9
 kayser_36_studies.EtudeNo.17,Etude No. 17 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 17 from Kayser 36 Studies by H.E. Kayser
 kayser_36_studies.EtudeNo.18,Etude No. 18 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 18 from Kayser 36 Studies by H.E. Kayser
 kayser_36_studies.EtudeNo.19,Etude No. 19 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 19 from Kayser 36 Studies by H.E. Kayser
-kayser_36_studies.EtudeNo.20,Etude No. 20 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 20 from Kayser 36 Studies by H.E. Kayser
 kayser_36_studies.EtudeNo.21,Etude No. 21 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 21 from Kayser 36 Studies by H.E. Kayser
 kayser_36_studies.EtudeNo.22,Etude No. 22 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 22 from Kayser 36 Studies by H.E. Kayser
 kayser_36_studies.EtudeNo.23,Etude No. 23 (Kayser 36 Studies),Non-Consumable,0.99,Etude No. 23 from Kayser 36 Studies by H.E. Kayser
@@ -48,9 +47,6 @@ kreutzer_42_studies.EtudeNo.11,Etude No. 11 (Kreutzer 42 Studies),Non-Consumable
 kreutzer_42_studies.EtudeNo.12,Etude No. 12 (Kreutzer 42 Studies),Non-Consumable,0.99,Etude No. 12 from Kreutzer 42 Studies by R. Kreutzer
 kreutzer_42_studies.EtudeNo.20,Etude No. 20 (Kreutzer 42 Studies),Non-Consumable,0.99,Etude No. 20 from Kreutzer 42 Studies by R. Kreutzer
 kreutzer_42_studies.EtudeNo.31,Etude No. 31 (Kreutzer 42 Studies),Non-Consumable,0.99,Etude No. 31 from Kreutzer 42 Studies by R. Kreutzer
-kreutzer_42_studies.EtudeNo.33,Etude No. 33 (Kreutzer 42 Studies),Non-Consumable,0.99,Etude No. 33 from Kreutzer 42 Studies by R. Kreutzer
-kreutzer_42_studies.EtudeNo.37,Etude No. 37 (Kreutzer 42 Studies),Non-Consumable,0.99,Etude No. 37 from Kreutzer 42 Studies by R. Kreutzer
-kreutzer_42_studies.EtudeNo.42,Etude No. 42 (Kreutzer 42 Studies),Non-Consumable,0.99,Etude No. 42 from Kreutzer 42 Studies by R. Kreutzer
 rode_24_caprices.CapriceNo.5,Caprice No. 5 (Rode 24 Caprices),Non-Consumable,0.99,Caprice No. 5 from Rode 24 Caprices by Pierre Rode
 rode_24_caprices.CapriceNo.6,Caprice No. 6 (Rode 24 Caprices),Non-Consumable,0.99,Caprice No. 6 from Rode 24 Caprices by Pierre Rode
 rode_24_caprices.CapriceNo.8,Caprice No. 8 (Rode 24 Caprices),Non-Consumable,0.99,Caprice No. 8 from Rode 24 Caprices by Pierre Rode
@@ -60,12 +56,24 @@ bach_for_violin.AirontheGString,Air on the G String (Bach for Violin),Non-Consum
 bach_for_violin.CelloSuiteNo.1,Cello Suite No. 1 (Bach for Violin),Non-Consumable,0.99,Cello Suite No. 1 from Bach for Violin by J.S. Bach
 bach_for_violin.CelloSuiteNo.1inGMajorBWV1007Prelude,Cello Suite No. 1 in G Major BWV 1007 Prelude (Bach for Violin),Non-Consumable,0.99,Cello Suite No. 1 in G Major BWV 1007 Prelude from Bach for Violin by J.S. Bach
 bach_for_violin.MinuetinGMajor,Minuet in G Major (Bach for Violin),Non-Consumable,0.99,Minuet in G Major from Bach for Violin by J.S. Bach
-bach_for_violin.SonataNo.1inGMinorBWV1001Presto,Sonata No. 1 in G Minor BWV 1001 Presto (Bach for Violin),Non-Consumable,0.99,Sonata No. 1 in G Minor BWV 1001 Presto from Bach for Violin by J.S. Bach
 bach_for_violin.ConcertoforTwoViolinsinDMinorBWV10431stMvtViolinI,Concerto for Two Violins in D Minor BWV 1043 1st Mvt Violin I (Bach for Violin),Non-Consumable,0.99,Concerto for Two Violins in D Minor BWV 1043 1st Mvt Violin I from Bach for Violin by J.S. Bach
 bach_for_violin.ConcertoNo.1inAMinor,Concerto No. 1 in A Minor (Bach for Violin),Non-Consumable,0.99,Concerto No. 1 in A Minor from Bach for Violin by J.S. Bach
 bach_for_violin.GiguefromPartitaNo.3BWV1006,Gigue from Partita No. 3 BWV 1006 (Bach for Violin),Non-Consumable,0.99,Gigue from Partita No. 3 BWV 1006 from Bach for Violin by J.S. Bach
 bach_for_violin.Minuet2,Minuet 2 (Bach for Violin),Non-Consumable,0.99,Minuet 2 from Bach for Violin by J.S. Bach
 bach_for_violin.Minuet3,Minuet 3 (Bach for Violin),Non-Consumable,0.99,Minuet 3 from Bach for Violin by J.S. Bach
-bach_for_violin.SoloViolinPartitaNo.2inDMinorBWV1004,Solo Violin Partita No. 2 in D Minor BWV 1004 (Bach for Violin),Non-Consumable,0.99,Solo Violin Partita No. 2 in D Minor BWV 1004 from Bach for Violin by J.S. Bach
-bach_for_violin.SoloViolinPartitaNo.3inEMajorBWV1006,Solo Violin Partita No. 3 in E Major BWV 1006 (Bach for Violin),Non-Consumable,0.99,Solo Violin Partita No. 3 in E Major BWV 1006 from Bach for Violin by J.S. Bach
-bach_for_violin.SoloViolinSonataNo.1inGMinorBWV1001,Solo Violin Sonata No. 1 in G Minor BWV 1001 (Bach for Violin),Non-Consumable,0.99,Solo Violin Sonata No. 1 in G Minor BWV 1001 from Bach for Violin by J.S. Bach
+bach_for_violin.SonataNo.1inGMinorBWV1001Presto,Sonata No. 1 in G Minor BWV 1001 Presto (Bach for Violin),Non-Consumable,0.99,Sonata No. 1 in G Minor BWV 1001 Presto from Bach for Violin by J.S. Bach
+bach_sonatas_partitas.SonataNo.2inAMinorIV.Allegro,Sonata No. 2 in A Minor — IV. Allegro (Bach Sonatas & Partitas),Non-Consumable,0.99,Sonata No. 2 in A Minor — IV. Allegro from Bach Sonatas & Partitas by J.S. Bach
+bach_sonatas_partitas.PartitaNo.1inBMinorI.Allemanda,Partita No. 1 in B Minor — I. Allemanda (Bach Sonatas & Partitas),Non-Consumable,0.99,Partita No. 1 in B Minor — I. Allemanda from Bach Sonatas & Partitas by J.S. Bach
+bach_sonatas_partitas.PartitaNo.1inBMinorII.Double,Partita No. 1 in B Minor — II. Double (Bach Sonatas & Partitas),Non-Consumable,0.99,Partita No. 1 in B Minor — II. Double from Bach Sonatas & Partitas by J.S. Bach
+bach_sonatas_partitas.PartitaNo.1inBMinorIII.Corrente,Partita No. 1 in B Minor — III. Corrente (Bach Sonatas & Partitas),Non-Consumable,0.99,Partita No. 1 in B Minor — III. Corrente from Bach Sonatas & Partitas by J.S. Bach
+bach_sonatas_partitas.PartitaNo.1inBMinorIV.Double,Partita No. 1 in B Minor — IV. Double (Bach Sonatas & Partitas),Non-Consumable,0.99,Partita No. 1 in B Minor — IV. Double from Bach Sonatas & Partitas by J.S. Bach
+bach_sonatas_partitas.PartitaNo.1inBMinorVI.Double,Partita No. 1 in B Minor — VI. Double (Bach Sonatas & Partitas),Non-Consumable,0.99,Partita No. 1 in B Minor — VI. Double from Bach Sonatas & Partitas by J.S. Bach
+bach_sonatas_partitas.PartitaNo.1inBMinorVIII.Double,Partita No. 1 in B Minor — VIII. Double (Bach Sonatas & Partitas),Non-Consumable,0.99,Partita No. 1 in B Minor — VIII. Double from Bach Sonatas & Partitas by J.S. Bach
+bach_sonatas_partitas.SonataNo.3inCMajorIV.Allegroassai,Sonata No. 3 in C Major — IV. Allegro assai (Bach Sonatas & Partitas),Non-Consumable,0.99,Sonata No. 3 in C Major — IV. Allegro assai from Bach Sonatas & Partitas by J.S. Bach
+bach_sonatas_partitas.PartitaNo.2inDMinorI.Allemanda,Partita No. 2 in D Minor — I. Allemanda (Bach Sonatas & Partitas),Non-Consumable,0.99,Partita No. 2 in D Minor — I. Allemanda from Bach Sonatas & Partitas by J.S. Bach
+bach_sonatas_partitas.PartitaNo.2inDMinorII.Corrente,Partita No. 2 in D Minor — II. Corrente (Bach Sonatas & Partitas),Non-Consumable,0.99,Partita No. 2 in D Minor — II. Corrente from Bach Sonatas & Partitas by J.S. Bach
+bach_sonatas_partitas.PartitaNo.2inDMinorIV.Giga,Partita No. 2 in D Minor — IV. Giga (Bach Sonatas & Partitas),Non-Consumable,0.99,Partita No. 2 in D Minor — IV. Giga from Bach Sonatas & Partitas by J.S. Bach
+bach_sonatas_partitas.PartitaNo.3inEMajorI.Preludio,Partita No. 3 in E Major — I. Preludio (Bach Sonatas & Partitas),Non-Consumable,0.99,Partita No. 3 in E Major — I. Preludio from Bach Sonatas & Partitas by J.S. Bach
+bach_sonatas_partitas.PartitaNo.3inEMajorVI.Bourree,Partita No. 3 in E Major — VI. Bourrée (Bach Sonatas & Partitas),Non-Consumable,0.99,Partita No. 3 in E Major — VI. Bourrée from Bach Sonatas & Partitas by J.S. Bach
+bach_sonatas_partitas.PartitaNo.3inEMajorVII.Gigue,Partita No. 3 in E Major — VII. Gigue (Bach Sonatas & Partitas),Non-Consumable,0.99,Partita No. 3 in E Major — VII. Gigue from Bach Sonatas & Partitas by J.S. Bach
+bach_sonatas_partitas.SonataNo.1inGMinorIV.Presto,Sonata No. 1 in G Minor — IV. Presto (Bach Sonatas & Partitas),Non-Consumable,0.99,Sonata No. 1 in G Minor — IV. Presto from Bach Sonatas & Partitas by J.S. Bach
