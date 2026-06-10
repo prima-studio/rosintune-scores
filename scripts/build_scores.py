@@ -14,7 +14,7 @@ composer / difficulty) is PRESERVED on merge -- only brand-new pieces get the
 folder defaults, and collections with no matching asset folder are left intact.
 
   python3 scripts/build_scores.py                       # build everything
-  python3 scripts/build_scores.py --only kreutzer-42-studies suzuki-book-1
+  python3 scripts/build_scores.py --only kreutzer-42-studies first-folk-tunes
   python3 scripts/build_scores.py --dry-run             # show plan, convert nothing
   python3 scripts/build_scores.py --prune               # also delete orphaned JSON
 
@@ -70,19 +70,21 @@ DEMERIT = {"arr-for": 6, "solo-flute": 6, "flute": 5, "oboe": 4, "clarinet": 4,
 
 
 # ---- per-collection irregular tables (source filename -> metadata) ----------
-# Suzuki Book 1: per-piece composers differ, so they can't be folder-derived.
-SUZUKI = {
+# Beginner folk tunes & short classics (all public-domain compositions):
+# per-piece composers differ, so they can't be folder-derived. Dict order =
+# collection order.
+FIRST_PIECES = {
     "01-twinkle-twinkle-little-star.xml": ("twinkle-twinkle-little-star.json", "Twinkle Twinkle Little Star", "Traditional", None),
     "02-lightly-row.xml": ("lightly-row.json", "Lightly Row", "Traditional", None),
-    "03-song-of-the-wind.xml": ("song-of-the-wind.json", "Song of the Wind", "Traditional", None),
     "04-go-tell-aunt-rhody.xml": ("go-tell-aunt-rhody.json", "Go Tell Aunt Rhody", "Traditional", None),
-    "05-o-come-little-children.xml": ("o-come-little-children.json", "O Come, Little Children", "J.A.P. Schulz", None),
     "06-may-song.xml": ("may-song.json", "May Song", "Traditional", None),
+    "03-song-of-the-wind.xml": ("song-of-the-wind.json", "Song of the Wind", "Traditional", None),
     "07-long-long-ago.xml": ("long-long-ago.json", "Long, Long Ago", "T.H. Bayly", None),
-    "13-minuet-no-1.xml": ("minuet-no-1.json", "Minuet No. 1", "J.S. Bach", None),
-    "14-minuet-no-2.xml": ("minuet-no-2.json", "Minuet No. 2", "J.S. Bach", None),
-    "15-minuet-no-3.xml": ("minuet-no-3.json", "Minuet No. 3", "J.S. Bach", None),
+    "05-o-come-little-children.xml": ("o-come-little-children.json", "O Come, Little Children", "J.A.P. Schulz", None),
     "16-the-happy-farmer.xml": ("the-happy-farmer.json", "The Happy Farmer", "R. Schumann", None),
+    "13-minuet-no-1.xml": ("minuet-no-1.json", "Minuet I", "J.S. Bach", None),
+    "14-minuet-no-2.xml": ("minuet-no-2.json", "Minuet II", "J.S. Bach", None),
+    "15-minuet-no-3.xml": ("minuet-no-3.json", "Minuet III", "J.S. Bach", None),
     "17-gavotte.xml": ("gavotte.json", "Gavotte", "F.J. Gossec", None),
 }
 # Demo collection: (out, title, composer, staff). Ode to Joy is a piano source
@@ -107,11 +109,11 @@ FOLDERS = [
          subtitle=None, coll_composer=None, is_free=True, sort=0,
          out_dir="violin/example", scheme="table", table=DEMO,
          difficulty=lambda key: "beginner", price=0.0, stage="published"),
-    dict(folder="violin/suzuki-01", collection="suzuki-book-1",
-         coll_title="Suzuki Book 1", subtitle=None, coll_composer="Shinichi Suzuki",
-         is_free=True, sort=1, out_dir="violin/suzuki-book-1", scheme="table",
-         table=SUZUKI, difficulty=lambda key: "beginner", price=0.0,
-         stage="published"),
+    dict(folder="violin/first-pieces", collection="first-folk-tunes",
+         coll_title="First Folk Tunes & Classics", subtitle=None, coll_composer=None,
+         is_free=True, sort=1, out_dir="violin/first-folk-tunes", scheme="table",
+         table=FIRST_PIECES, difficulty=lambda key: "beginner", price=0.0,
+         stage="published", mechanical_editorial=True),
     dict(folder="violin/kayser-etudes", collection="kayser-36-studies",
          coll_title="Kayser 36 Studies",
          subtitle="Elementary and Progressive Studies, Op. 20",
@@ -447,7 +449,8 @@ def plan_folder(cfg):
                 src=src, out=os.path.join(cfg["out_dir"], out_name),
                 title=title, composer=composer, staff=staff,
                 difficulty=cfg["difficulty"](title), price=cfg["price"],
-                stage=cfg["stage"], free=(cfg["price"] == 0)))
+                stage=cfg["stage"], free=(cfg["price"] == 0),
+                mechanical=cfg.get("mechanical_editorial", False)))
 
     elif cfg["scheme"] == "number":
         groups = {}
@@ -555,6 +558,8 @@ def convert_piece(piece, prior):
     cmd += ["--free"] if free else ["--no-free"]
     if piece.get("staff") is not None:
         cmd += ["--staff", str(piece["staff"])]
+    if piece.get("mechanical"):
+        cmd += ["--mechanical-editorial"]
     r = subprocess.run(cmd, capture_output=True, text=True)
     if r.returncode != 0:
         print(f"  FAIL {piece['out']}:\n{indent(r.stderr)}")

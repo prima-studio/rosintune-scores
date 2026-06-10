@@ -22,7 +22,7 @@ One command converts **every** source under `assets/` into score JSON, rebuilds
 ```bash
 python3 scripts/build_scores.py            # build everything
 python3 scripts/build_scores.py --dry-run  # preview plan + skips + coverage; write nothing
-python3 scripts/build_scores.py --only kreutzer-42-studies suzuki-book-1
+python3 scripts/build_scores.py --only kreutzer-42-studies first-folk-tunes
 python3 scripts/build_scores.py --prune    # also delete orphaned JSON (renamed/removed sources)
 ```
 
@@ -59,16 +59,19 @@ The run is **idempotent** — re-running changes nothing unless sources changed.
 - **Folders → collections** are defined in the `FOLDERS` table in
   `build_scores.py`. `number` scheme = numbered études/caprices ("Etude No. N");
   `named` = title from filename (Bach); `table` = explicit per-piece metadata
-  (Suzuki/demo, where composers differ per piece); `movements` = split one
+  (first-pieces/demo, where composers differ per piece); `movements` = split one
   multi-movement source into one JSON per movement (the 6 Sonatas & Partitas).
 - **Curation is preserved.** `score-index.json` is the source of truth for a
   piece's `stage` / `price` / `isFree` (and any hand-edited title/composer).
   Re-runs keep these; only brand-new pieces get folder defaults. New paid
   collections default to **staging** so nothing auto-publishes — publish
   deliberately by editing the entry's `stage` to `published`.
-- **Copyright.** Only public-domain material. `SKIP_SUBSTR` excludes known
-  in-copyright sources; the Suzuki-composed Book 1 pieces are intentionally
-  absent.
+- **Copyright.** Only public-domain *compositions*, and no copyrighted
+  edition's pages, typesetting, or editorial content — see `COPYRIGHT.md` for
+  the full policy and per-collection rationale. `SKIP_SUBSTR` excludes known
+  in-copyright sources, and 20th-century pedagogical compositions are
+  intentionally absent. Collections are never branded with copyrighted
+  method-book or edition names.
 - **Double stops.** Pieces with >10% double-stop notes (`MAX_DOUBLE_STOP`) are
   dropped after conversion — too chord-heavy for the reader. This removes the
   chord études (e.g. Kreutzer 33/37/42, Kayser 20) and the chordal Bach movements

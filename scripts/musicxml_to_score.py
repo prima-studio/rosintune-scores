@@ -440,7 +440,7 @@ def make_note(d, beat, args):
     string = fing = bowing = artic = slur = tie = None
     if pitch is not None:
         notations = el.find("notations")
-        tech = el.find(".//technical")
+        tech = None if args.mechanical_editorial else el.find(".//technical")
         if tech is not None:
             if tech.find("up-bow") is not None:
                 bowing = "up"
@@ -452,16 +452,20 @@ def make_note(d, beat, args):
             tt = (t.get("type") if t is not None else
                   tn.get("type") if tn is not None else None)
             tie = {"start": "start", "stop": "end"}.get(tt)
+            # Slurs and articulations are editorial in beginner transcriptions
+            # (ties are structural and always kept).
             sl = notations.find("slur")
-            if sl is not None:
+            if sl is not None and not args.mechanical_editorial:
                 slur = {"start": "start", "stop": "end"}.get(sl.get("type"))
-            arts = notations.find("articulations")
+            arts = (None if args.mechanical_editorial
+                    else notations.find("articulations"))
             if arts is not None:
                 if arts.find("staccato") is not None:
                     artic = "."
                 elif arts.find("accent") is not None:
                     artic = ">"
-        string, fing = string_fingering(el, pitch, args.no_fingering)
+        string, fing = string_fingering(el, pitch, args.no_fingering,
+                                        args.mechanical_editorial)
     stem = d["stem"] or (None if pitch is None else ("down" if midi >= MIDDLE_LINE else "up"))
     obj = {
         "pitch": pitch,
@@ -484,10 +488,12 @@ def make_note(d, beat, args):
     return obj
 
 
-def string_fingering(el, pitch, no_fingering):
-    """(string, fingering) from MusicXML <technical>, else violin first-position map."""
+def string_fingering(el, pitch, no_fingering, mechanical=False):
+    """(string, fingering) from MusicXML <technical>, else violin first-position
+    map. With `mechanical`, the source's <technical> is ignored entirely: every
+    assignment comes from the map (no third-party editorial content)."""
     string = fing = None
-    tech = el.find(".//technical")
+    tech = None if mechanical else el.find(".//technical")
     if tech is not None:
         fnode = tech.find("fingering")
         if fnode is not None and fnode.text:
@@ -508,7 +514,8 @@ def chord_entry(d, args):
     """A lower notehead of a chord: per-notehead attributes only (rhythm/connectors
     are inherited from the parent note)."""
     el = d["el"]
-    string, fing = string_fingering(el, d["pitch"], args.no_fingering)
+    string, fing = string_fingering(el, d["pitch"], args.no_fingering,
+                                    args.mechanical_editorial)
     t = el.find("tie")
     tn = el.find(".//tied")
     tt = (t.get("type") if t is not None else tn.get("type") if tn is not None else None)
@@ -546,6 +553,10 @@ def main():
     ap.add_argument("--version", type=int, default=1)
     ap.add_argument("--free", action=argparse.BooleanOptionalAction, default=True)
     ap.add_argument("--no-fingering", action="store_true")
+    ap.add_argument("--mechanical-editorial", action="store_true",
+                    help="ignore the source's fingerings, string numbers and "
+                         "bow marks; generate them all mechanically (first-"
+                         "position map + alternating bowing)")
     ap.add_argument("--staff", type=int, default=None,
                     help="extract only this staff (grand-staff/piano sources; melody is usually 1)")
     ap.add_argument("--part-index", type=int, default=None,

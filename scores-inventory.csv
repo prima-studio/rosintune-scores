@@ -5,18 +5,18 @@ example,Example,violin/example/twinkle.json,Twinkle Twinkle Little Star,Traditio
 bach-partita,Bach Partita,violin/bach-partita/allemande.json,Allemande,J.S. Bach,advanced,staging,,false
 bach-partita,Bach Partita,violin/bach-partita/gavotte.json,Gavotte en Rondeau,J.S. Bach,advanced,staging,,false
 bach-partita,Bach Partita,violin/bach-partita/gigue.json,Gigue,J.S. Bach,advanced,staging,,false
-suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/twinkle-twinkle-little-star.json,Twinkle Twinkle Little Star,Traditional,beginner,published,0,true
-suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/lightly-row.json,Lightly Row,Traditional,beginner,published,0,true
-suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/song-of-the-wind.json,Song of the Wind,Traditional,beginner,published,0,true
-suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/go-tell-aunt-rhody.json,Go Tell Aunt Rhody,Traditional,beginner,published,0,true
-suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/o-come-little-children.json,"O Come, Little Children",J.A.P. Schulz,beginner,published,0,true
-suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/may-song.json,May Song,Traditional,beginner,published,0,true
-suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/long-long-ago.json,"Long, Long Ago",T.H. Bayly,beginner,published,0,true
-suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/minuet-no-1.json,Minuet No. 1,J.S. Bach,beginner,published,0,true
-suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/minuet-no-2.json,Minuet No. 2,J.S. Bach,beginner,published,0,true
-suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/minuet-no-3.json,Minuet No. 3,J.S. Bach,beginner,published,0,true
-suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/the-happy-farmer.json,The Happy Farmer,R. Schumann,beginner,published,0,true
-suzuki-book-1,Suzuki Book 1,violin/suzuki-book-1/gavotte.json,Gavotte,F.J. Gossec,beginner,published,0,true
+first-folk-tunes,First Folk Tunes & Classics,violin/first-folk-tunes/twinkle-twinkle-little-star.json,Twinkle Twinkle Little Star,Traditional,beginner,published,0.0,true
+first-folk-tunes,First Folk Tunes & Classics,violin/first-folk-tunes/lightly-row.json,Lightly Row,Traditional,beginner,published,0.0,true
+first-folk-tunes,First Folk Tunes & Classics,violin/first-folk-tunes/go-tell-aunt-rhody.json,Go Tell Aunt Rhody,Traditional,beginner,published,0.0,true
+first-folk-tunes,First Folk Tunes & Classics,violin/first-folk-tunes/may-song.json,May Song,Traditional,beginner,published,0.0,true
+first-folk-tunes,First Folk Tunes & Classics,violin/first-folk-tunes/song-of-the-wind.json,Song of the Wind,Traditional,beginner,published,0.0,true
+first-folk-tunes,First Folk Tunes & Classics,violin/first-folk-tunes/long-long-ago.json,"Long, Long Ago",T.H. Bayly,beginner,published,0.0,true
+first-folk-tunes,First Folk Tunes & Classics,violin/first-folk-tunes/o-come-little-children.json,"O Come, Little Children",J.A.P. Schulz,beginner,published,0.0,true
+first-folk-tunes,First Folk Tunes & Classics,violin/first-folk-tunes/the-happy-farmer.json,The Happy Farmer,R. Schumann,beginner,published,0.0,true
+first-folk-tunes,First Folk Tunes & Classics,violin/first-folk-tunes/minuet-no-1.json,Minuet I,J.S. Bach,beginner,published,0.0,true
+first-folk-tunes,First Folk Tunes & Classics,violin/first-folk-tunes/minuet-no-2.json,Minuet II,J.S. Bach,beginner,published,0.0,true
+first-folk-tunes,First Folk Tunes & Classics,violin/first-folk-tunes/minuet-no-3.json,Minuet III,J.S. Bach,beginner,published,0.0,true
+first-folk-tunes,First Folk Tunes & Classics,violin/first-folk-tunes/gavotte.json,Gavotte,F.J. Gossec,beginner,published,0.0,true
 kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-01.json,Etude No. 1,H.E. Kayser,beginner,published,0,true
 kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-02.json,Etude No. 2,H.E. Kayser,beginner,published,0.99,false
 kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-03.json,Etude No. 3,H.E. Kayser,intermediate,staging,0.99,false

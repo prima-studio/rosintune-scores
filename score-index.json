@@ -467,139 +467,9 @@
       ]
     },
     {
-      "id": "suzuki-book-1",
-      "title": "Suzuki Book 1",
-      "subtitle": null,
-      "composer": "Shinichi Suzuki",
-      "isFree": true,
-      "sortOrder": 1,
-      "scores": [
-        {
-          "filename": "violin/suzuki-book-1/twinkle-twinkle-little-star.json",
-          "title": "Twinkle Twinkle Little Star",
-          "composer": "Traditional",
-          "difficulty": "beginner",
-          "stage": "published",
-          "price": 0,
-          "version": 1,
-          "sha256": "38621af8062f26081156c19bdddf2c5675a8fff79ef25d81b095818667f53992"
-        },
-        {
-          "filename": "violin/suzuki-book-1/lightly-row.json",
-          "title": "Lightly Row",
-          "composer": "Traditional",
-          "difficulty": "beginner",
-          "stage": "published",
-          "price": 0,
-          "version": 1,
-          "sha256": "2ce3f9ee608afc0205cbdfd5f0bc22be41e90914e3de1194ae0b4baaddc297df"
-        },
-        {
-          "filename": "violin/suzuki-book-1/song-of-the-wind.json",
-          "title": "Song of the Wind",
-          "composer": "Traditional",
-          "difficulty": "beginner",
-          "stage": "published",
-          "price": 0,
-          "version": 1,
-          "sha256": "6c8d4b43292febed8bb2682cdee02e3524fa8db3e91e7642ba593ff01702a23e"
-        },
-        {
-          "filename": "violin/suzuki-book-1/go-tell-aunt-rhody.json",
-          "title": "Go Tell Aunt Rhody",
-          "composer": "Traditional",
-          "difficulty": "beginner",
-          "stage": "published",
-          "price": 0,
-          "version": 1,
-          "sha256": "4ffef8f61e06f858d2d74349f7f50d12b79934d2e305fb8bc1b6b4f49d139766"
-        },
-        {
-          "filename": "violin/suzuki-book-1/o-come-little-children.json",
-          "title": "O Come, Little Children",
-          "composer": "J.A.P. Schulz",
-          "difficulty": "beginner",
-          "stage": "published",
-          "price": 0,
-          "version": 1,
-          "sha256": "5e0228e65b7aafa4a4af95bd8ea72daa25317dc94a950abefb91b91ffe734067"
-        },
-        {
-          "filename": "violin/suzuki-book-1/may-song.json",
-          "title": "May Song",
-          "composer": "Traditional",
-          "difficulty": "beginner",
-          "stage": "published",
-          "price": 0,
-          "version": 1,
-          "sha256": "6277a4f1b90724baf38153933f573a0732d47ac7038b9650705096ebbd3a306b"
-        },
-        {
-          "filename": "violin/suzuki-book-1/long-long-ago.json",
-          "title": "Long, Long Ago",
-          "composer": "T.H. Bayly",
-          "difficulty": "beginner",
-          "stage": "published",
-          "price": 0,
-          "version": 1,
-          "sha256": "4ab445ab32ed117b3445e0349084ccd440db3d00f2fa30a15bd68f233fa5a70c"
-        },
-        {
-          "filename": "violin/suzuki-book-1/minuet-no-1.json",
-          "title": "Minuet No. 1",
-          "composer": "J.S. Bach",
-          "difficulty": "beginner",
-          "stage": "published",
-          "price": 0,
-          "version": 1,
-          "sha256": "4d1c2da4b0d6893903f46435c861a2373714b0d999205560bd8c54112d14bd16"
-        },
-        {
-          "filename": "violin/suzuki-book-1/minuet-no-2.json",
-          "title": "Minuet No. 2",
-          "composer": "J.S. Bach",
-          "difficulty": "beginner",
-          "stage": "published",
-          "price": 0,
-          "version": 1,
-          "sha256": "be03b51bcd935ff0b3d4c2a6db64da438713d43ac86ed0462101099bd7a181d3"
-        },
-        {
-          "filename": "violin/suzuki-book-1/minuet-no-3.json",
-          "title": "Minuet No. 3",
-          "composer": "J.S. Bach",
-          "difficulty": "beginner",
-          "stage": "published",
-          "price": 0,
-          "version": 1,
-          "sha256": "98afd976ce33f691d0b0095aebd53e77c1d5e62714249d8d917a825644ef64bf"
-        },
-        {
-          "filename": "violin/suzuki-book-1/the-happy-farmer.json",
-          "title": "The Happy Farmer",
-          "composer": "R. Schumann",
-          "difficulty": "beginner",
-          "stage": "published",
-          "price": 0,
-          "version": 1,
-          "sha256": "6291626ffe28b8ad24031a9e6e053f7e0d9977282294b13e659325b654cb48a9"
-        },
-        {
-          "filename": "violin/suzuki-book-1/gavotte.json",
-          "title": "Gavotte",
-          "composer": "F.J. Gossec",
-          "difficulty": "beginner",
-          "stage": "published",
-          "price": 0,
-          "version": 1,
-          "sha256": "565d401e2632d8c622d1f403602d18d54bc788108f44023866928a5dca1f0483"
-        }
-      ]
-    },
-    {
       "id": "kreutzer-42-studies",
       "title": "Kreutzer 42 Studies",
-      "subtitle": "42 Études ou Caprices",
+      "subtitle": "42 \u00c9tudes ou Caprices",
       "composer": "R. Kreutzer",
       "isFree": false,
       "sortOrder": 3,
@@ -889,14 +759,14 @@
     {
       "id": "bach-sonatas-partitas",
       "title": "Bach Sonatas & Partitas",
-      "subtitle": "Sei Solo, BWV 1001–1006",
+      "subtitle": "Sei Solo, BWV 1001\u20131006",
       "composer": "J.S. Bach",
       "isFree": false,
       "sortOrder": 6,
       "scores": [
         {
           "filename": "violin/bach-sonatas-partitas/bwv1003-04-allegro.json",
-          "title": "Sonata No. 2 in A Minor — IV. Allegro",
+          "title": "Sonata No. 2 in A Minor \u2014 IV. Allegro",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
@@ -906,7 +776,7 @@
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1002-01-allemanda.json",
-          "title": "Partita No. 1 in B Minor — I. Allemanda",
+          "title": "Partita No. 1 in B Minor \u2014 I. Allemanda",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
@@ -916,7 +786,7 @@
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1002-02-double.json",
-          "title": "Partita No. 1 in B Minor — II. Double",
+          "title": "Partita No. 1 in B Minor \u2014 II. Double",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
@@ -926,7 +796,7 @@
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1002-03-corrente.json",
-          "title": "Partita No. 1 in B Minor — III. Corrente",
+          "title": "Partita No. 1 in B Minor \u2014 III. Corrente",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
@@ -936,7 +806,7 @@
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1002-04-double.json",
-          "title": "Partita No. 1 in B Minor — IV. Double",
+          "title": "Partita No. 1 in B Minor \u2014 IV. Double",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
@@ -946,7 +816,7 @@
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1002-06-double.json",
-          "title": "Partita No. 1 in B Minor — VI. Double",
+          "title": "Partita No. 1 in B Minor \u2014 VI. Double",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
@@ -956,7 +826,7 @@
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1002-08-double.json",
-          "title": "Partita No. 1 in B Minor — VIII. Double",
+          "title": "Partita No. 1 in B Minor \u2014 VIII. Double",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
@@ -966,7 +836,7 @@
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1005-04-allegro-assai.json",
-          "title": "Sonata No. 3 in C Major — IV. Allegro assai",
+          "title": "Sonata No. 3 in C Major \u2014 IV. Allegro assai",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
@@ -976,7 +846,7 @@
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1004-01-allemanda.json",
-          "title": "Partita No. 2 in D Minor — I. Allemanda",
+          "title": "Partita No. 2 in D Minor \u2014 I. Allemanda",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
@@ -986,7 +856,7 @@
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1004-02-corrente.json",
-          "title": "Partita No. 2 in D Minor — II. Corrente",
+          "title": "Partita No. 2 in D Minor \u2014 II. Corrente",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
@@ -996,7 +866,7 @@
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1004-04-giga.json",
-          "title": "Partita No. 2 in D Minor — IV. Giga",
+          "title": "Partita No. 2 in D Minor \u2014 IV. Giga",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
@@ -1006,7 +876,7 @@
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1006-01-preludio.json",
-          "title": "Partita No. 3 in E Major — I. Preludio",
+          "title": "Partita No. 3 in E Major \u2014 I. Preludio",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
@@ -1016,7 +886,7 @@
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1006-06-bourree.json",
-          "title": "Partita No. 3 in E Major — VI. Bourrée",
+          "title": "Partita No. 3 in E Major \u2014 VI. Bourr\u00e9e",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
@@ -1026,7 +896,7 @@
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1006-07-gigue.json",
-          "title": "Partita No. 3 in E Major — VII. Gigue",
+          "title": "Partita No. 3 in E Major \u2014 VII. Gigue",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
@@ -1036,13 +906,155 @@
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1001-04-presto.json",
-          "title": "Sonata No. 1 in G Minor — IV. Presto",
+          "title": "Sonata No. 1 in G Minor \u2014 IV. Presto",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
           "version": 1,
           "sha256": "25a1d09b524ce8ba443b53b9dc90d4e929bd79f54251510562b1cf023f99113a"
+        }
+      ]
+    },
+    {
+      "id": "first-folk-tunes",
+      "title": "First Folk Tunes & Classics",
+      "subtitle": null,
+      "composer": null,
+      "isFree": true,
+      "sortOrder": 1,
+      "scores": [
+        {
+          "filename": "violin/first-folk-tunes/twinkle-twinkle-little-star.json",
+          "title": "Twinkle Twinkle Little Star",
+          "composer": "Traditional",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0.0,
+          "version": 1,
+          "isFree": true,
+          "sha256": "7ab1c62b7a7f841388bb161989039cf507d99037634e7796d48f4751e1b11a8e"
+        },
+        {
+          "filename": "violin/first-folk-tunes/lightly-row.json",
+          "title": "Lightly Row",
+          "composer": "Traditional",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0.0,
+          "version": 1,
+          "isFree": true,
+          "sha256": "7db24629dceda5c49aaccb06a56d818ed63dd35f00a4053ef89872640da47e5e"
+        },
+        {
+          "filename": "violin/first-folk-tunes/go-tell-aunt-rhody.json",
+          "title": "Go Tell Aunt Rhody",
+          "composer": "Traditional",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0.0,
+          "version": 1,
+          "isFree": true,
+          "sha256": "d6fdee905817e707eabbae5ea9d5ee10da806ae37b9b6e7878dea9c665db2454"
+        },
+        {
+          "filename": "violin/first-folk-tunes/may-song.json",
+          "title": "May Song",
+          "composer": "Traditional",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0.0,
+          "version": 1,
+          "isFree": true,
+          "sha256": "51a6e32f86b540afb7b3ee580b50dec4971c391af3945e851ed9c6783d903e86"
+        },
+        {
+          "filename": "violin/first-folk-tunes/song-of-the-wind.json",
+          "title": "Song of the Wind",
+          "composer": "Traditional",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0.0,
+          "version": 1,
+          "isFree": true,
+          "sha256": "d15dc80eb9bbe99c6c86d88c2522b62e79079ea353a31c1071cac16a7cca9cf9"
+        },
+        {
+          "filename": "violin/first-folk-tunes/long-long-ago.json",
+          "title": "Long, Long Ago",
+          "composer": "T.H. Bayly",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0.0,
+          "version": 1,
+          "isFree": true,
+          "sha256": "b25bd546ca5e74ded44e92050a6430237dcce25fe77412eefd6fd242287582da"
+        },
+        {
+          "filename": "violin/first-folk-tunes/o-come-little-children.json",
+          "title": "O Come, Little Children",
+          "composer": "J.A.P. Schulz",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0.0,
+          "version": 1,
+          "isFree": true,
+          "sha256": "35997d03292a81dd817bef897391b59d0456560d4172f2d8a78f2d7ab72a02be"
+        },
+        {
+          "filename": "violin/first-folk-tunes/the-happy-farmer.json",
+          "title": "The Happy Farmer",
+          "composer": "R. Schumann",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0.0,
+          "version": 1,
+          "isFree": true,
+          "sha256": "c1d492454012c272c97bc129895739ecaca3a5af4e3c10d9f2ad661c5f188e86"
+        },
+        {
+          "filename": "violin/first-folk-tunes/minuet-no-1.json",
+          "title": "Minuet I",
+          "composer": "J.S. Bach",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0.0,
+          "version": 1,
+          "isFree": true,
+          "sha256": "c7c21bfb65b110cedc44bff0b297c7105ee1e09d3fe92ecb85d9da835143da05"
+        },
+        {
+          "filename": "violin/first-folk-tunes/minuet-no-2.json",
+          "title": "Minuet II",
+          "composer": "J.S. Bach",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0.0,
+          "version": 1,
+          "isFree": true,
+          "sha256": "70fb2c756ee94fdf8e8fea754d28d0eb695ad4de006dc55c28ffd1b1eca68e4d"
+        },
+        {
+          "filename": "violin/first-folk-tunes/minuet-no-3.json",
+          "title": "Minuet III",
+          "composer": "J.S. Bach",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0.0,
+          "version": 1,
+          "isFree": true,
+          "sha256": "40002b299c9d925d7d87cf26e7e64e64b2f061ea90c20650dd23770b8ac19e2a"
+        },
+        {
+          "filename": "violin/first-folk-tunes/gavotte.json",
+          "title": "Gavotte",
+          "composer": "F.J. Gossec",
+          "difficulty": "beginner",
+          "stage": "published",
+          "price": 0.0,
+          "version": 1,
+          "isFree": true,
+          "sha256": "806872a71eaeac3b0c0a9f3ce66eb6bda39f475d69a1d2a50a9ee4c201822959"
         }
       ]
     }

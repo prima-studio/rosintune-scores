@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "Minuet No. 3",
+    "title": "Minuet III",
     "composer": "J.S. Bach",
     "key": "G Major",
     "tempo": 100,
     "clef": "treble",
     "timeSignature": "3/4",
-    "collectionId": "suzuki-book-1",
+    "collectionId": "first-folk-tunes",
     "difficulty": "beginner",
     "version": 1,
     "isFree": true
@@ -48,7 +48,7 @@
           "bowing": "up",
           "articulation": null,
           "beam": "start",
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -60,10 +60,10 @@
           "flags": 0,
           "string": 2,
           "fingering": "0",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         },
         {
@@ -75,7 +75,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "1",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -90,7 +90,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "2",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": "end",
           "slur": null,
@@ -110,7 +110,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "3",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -124,11 +124,11 @@
           "stem": "up",
           "flags": 0,
           "string": 3,
-          "fingering": "1",
-          "bowing": "up",
-          "articulation": ".",
+          "fingering": "3",
+          "bowing": "down",
+          "articulation": null,
           "beam": null,
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -141,9 +141,9 @@
           "string": 3,
           "fingering": "3",
           "bowing": "up",
-          "articulation": ".",
+          "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         }
       ]
@@ -159,7 +159,7 @@
           "stem": "down",
           "flags": 0,
           "string": 1,
-          "fingering": "4",
+          "fingering": "0",
           "bowing": "down",
           "articulation": null,
           "beam": null,
@@ -178,7 +178,7 @@
           "bowing": "up",
           "articulation": null,
           "beam": "start",
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -190,10 +190,10 @@
           "flags": 0,
           "string": 2,
           "fingering": "3",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         },
         {
@@ -205,7 +205,7 @@
           "flags": 0,
           "string": 1,
           "fingering": "0",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -220,7 +220,7 @@
           "flags": 0,
           "string": 1,
           "fingering": "1",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": "end",
           "slur": null,
@@ -240,7 +240,7 @@
           "flags": 0,
           "string": 1,
           "fingering": "2",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -255,10 +255,10 @@
           "flags": 0,
           "string": 3,
           "fingering": "3",
-          "bowing": "up",
-          "articulation": ".",
+          "bowing": "down",
+          "articulation": null,
           "beam": null,
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -271,9 +271,9 @@
           "string": 3,
           "fingering": "3",
           "bowing": "up",
-          "articulation": ".",
+          "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         }
       ]
@@ -308,7 +308,7 @@
           "bowing": "up",
           "articulation": null,
           "beam": "start",
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -320,10 +320,10 @@
           "flags": 0,
           "string": 2,
           "fingering": "2",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         },
         {
@@ -335,7 +335,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "1",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -350,7 +350,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "0",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": "end",
           "slur": null,
@@ -370,7 +370,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "1",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -385,10 +385,10 @@
           "flags": 0,
           "string": 2,
           "fingering": "2",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": "start",
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -403,7 +403,7 @@
           "bowing": "up",
           "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         },
         {
@@ -468,7 +468,7 @@
           "bowing": "up",
           "articulation": null,
           "beam": "start",
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -480,10 +480,10 @@
           "flags": 0,
           "string": 2,
           "fingering": "0",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         },
         {
@@ -495,7 +495,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "1",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -510,7 +510,7 @@
           "flags": 0,
           "string": 3,
           "fingering": "3",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": "end",
           "slur": null,
@@ -530,7 +530,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "0",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -568,7 +568,7 @@
           "bowing": "up",
           "articulation": null,
           "beam": "start",
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -580,10 +580,10 @@
           "flags": 0,
           "string": 2,
           "fingering": "0",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         },
         {
@@ -595,7 +595,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "1",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -610,7 +610,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "2",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": "end",
           "slur": null,
@@ -630,7 +630,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "3",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -645,10 +645,10 @@
           "flags": 0,
           "string": 3,
           "fingering": "3",
-          "bowing": "up",
-          "articulation": ".",
+          "bowing": "down",
+          "articulation": null,
           "beam": null,
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -661,9 +661,9 @@
           "string": 3,
           "fingering": "3",
           "bowing": "up",
-          "articulation": ".",
+          "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         }
       ]
@@ -679,7 +679,7 @@
           "stem": "down",
           "flags": 0,
           "string": 1,
-          "fingering": "4",
+          "fingering": "0",
           "bowing": "down",
           "articulation": null,
           "beam": null,
@@ -698,7 +698,7 @@
           "bowing": "up",
           "articulation": null,
           "beam": "start",
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -710,10 +710,10 @@
           "flags": 0,
           "string": 2,
           "fingering": "3",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         },
         {
@@ -724,8 +724,8 @@
           "stem": "down",
           "flags": 0,
           "string": 1,
-          "fingering": "3",
-          "bowing": "down",
+          "fingering": "0",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -740,7 +740,7 @@
           "flags": 0,
           "string": 1,
           "fingering": "1",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": "end",
           "slur": null,
@@ -760,7 +760,7 @@
           "flags": 0,
           "string": 1,
           "fingering": "2",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -775,10 +775,10 @@
           "flags": 0,
           "string": 3,
           "fingering": "3",
-          "bowing": "up",
-          "articulation": ".",
+          "bowing": "down",
+          "articulation": null,
           "beam": null,
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -791,9 +791,9 @@
           "string": 3,
           "fingering": "3",
           "bowing": "up",
-          "articulation": ".",
+          "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         }
       ]
@@ -828,7 +828,7 @@
           "bowing": "up",
           "articulation": null,
           "beam": "start",
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -840,10 +840,10 @@
           "flags": 0,
           "string": 2,
           "fingering": "2",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         },
         {
@@ -855,7 +855,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "1",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -870,7 +870,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "0",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": "end",
           "slur": null,
@@ -890,7 +890,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "1",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -905,10 +905,10 @@
           "flags": 0,
           "string": 2,
           "fingering": "2",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": "start",
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -923,7 +923,7 @@
           "bowing": "up",
           "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         },
         {
@@ -969,7 +969,7 @@
           "stem": "up",
           "flags": 0,
           "string": 2,
-          "fingering": "3",
+          "fingering": "0",
           "bowing": "down",
           "articulation": null,
           "beam": null,
@@ -988,7 +988,7 @@
           "bowing": "up",
           "articulation": null,
           "beam": "start",
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -1000,10 +1000,10 @@
           "flags": 0,
           "string": 2,
           "fingering": "0",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         },
         {
@@ -1015,7 +1015,7 @@
           "flags": 0,
           "string": 3,
           "fingering": "3",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -1030,7 +1030,7 @@
           "flags": 0,
           "string": 3,
           "fingering": "2",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": "end",
           "slur": null,
@@ -1050,7 +1050,7 @@
           "flags": 0,
           "string": 3,
           "fingering": "3",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -1076,7 +1076,7 @@
           "flags": 0,
           "string": 1,
           "fingering": "4",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -1091,10 +1091,10 @@
           "flags": 0,
           "string": 1,
           "fingering": "2",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": "start",
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -1109,7 +1109,7 @@
           "bowing": "down",
           "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         },
         {
@@ -1174,7 +1174,7 @@
           "bowing": "down",
           "articulation": null,
           "beam": "start",
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -1186,10 +1186,10 @@
           "flags": 0,
           "string": 1,
           "fingering": "0",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         },
         {
@@ -1201,7 +1201,7 @@
           "flags": 0,
           "string": 1,
           "fingering": "1",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -1216,7 +1216,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "3",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": "end",
           "slur": null,
@@ -1236,7 +1236,7 @@
           "flags": 0,
           "string": 1,
           "fingering": "2",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -1251,10 +1251,10 @@
           "flags": 0,
           "string": 1,
           "fingering": "0",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": "start",
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -1269,7 +1269,7 @@
           "bowing": "down",
           "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         },
         {
@@ -1384,7 +1384,7 @@
           "bowing": "up",
           "articulation": null,
           "beam": "start",
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -1396,10 +1396,10 @@
           "flags": 0,
           "string": 2,
           "fingering": "1",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         },
         {
@@ -1411,7 +1411,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "2",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -1426,7 +1426,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "3",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -1441,7 +1441,7 @@
           "flags": 0,
           "string": 1,
           "fingering": "0",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -1456,7 +1456,7 @@
           "flags": 0,
           "string": 1,
           "fingering": "1",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": "end",
           "slur": null,
@@ -1476,7 +1476,7 @@
           "flags": 0,
           "string": 1,
           "fingering": "2",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -1491,7 +1491,7 @@
           "flags": 0,
           "string": 1,
           "fingering": "1",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -1506,7 +1506,7 @@
           "flags": 0,
           "string": 1,
           "fingering": "0",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -1526,7 +1526,7 @@
           "flags": 0,
           "string": 1,
           "fingering": "1",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -1541,10 +1541,10 @@
           "flags": 0,
           "string": 2,
           "fingering": "0",
-          "bowing": "down",
-          "articulation": ".",
+          "bowing": "up",
+          "articulation": null,
           "beam": null,
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -1559,7 +1559,7 @@
           "bowing": "down",
           "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         }
       ]
@@ -1666,7 +1666,7 @@
           "stem": "down",
           "flags": 0,
           "string": 1,
-          "fingering": "4",
+          "fingering": "0",
           "bowing": "down",
           "articulation": null,
           "beam": null,
@@ -1750,7 +1750,7 @@
           "bowing": "up",
           "articulation": null,
           "beam": null,
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -1762,10 +1762,10 @@
           "flags": 0,
           "string": 2,
           "fingering": "1",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         }
       ]
@@ -1782,10 +1782,10 @@
           "flags": 0,
           "string": 2,
           "fingering": "0",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": "start",
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -1800,7 +1800,7 @@
           "bowing": "down",
           "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         },
         {
@@ -1865,7 +1865,7 @@
           "bowing": "down",
           "articulation": null,
           "beam": "start",
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -1877,10 +1877,10 @@
           "flags": 0,
           "string": 3,
           "fingering": "1",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         },
         {
@@ -1892,7 +1892,7 @@
           "flags": 0,
           "string": 3,
           "fingering": "2",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -1907,7 +1907,7 @@
           "flags": 0,
           "string": 3,
           "fingering": "3",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -1922,7 +1922,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "0",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -1937,7 +1937,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "1",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": "end",
           "slur": null,
@@ -1957,7 +1957,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "2",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -1972,7 +1972,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "1",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -1987,7 +1987,7 @@
           "flags": 0,
           "string": 2,
           "fingering": "0",
-          "bowing": "up",
+          "bowing": "down",
           "articulation": null,
           "beam": null,
           "slur": null,
@@ -2007,10 +2007,10 @@
           "flags": 0,
           "string": 2,
           "fingering": "1",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": "start",
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -2025,7 +2025,7 @@
           "bowing": "down",
           "articulation": null,
           "beam": "end",
-          "slur": "end",
+          "slur": null,
           "tie": null
         },
         {
@@ -2038,9 +2038,9 @@
           "string": 3,
           "fingering": "3",
           "bowing": "up",
-          "articulation": ".",
+          "articulation": null,
           "beam": null,
-          "slur": "start",
+          "slur": null,
           "tie": null
         },
         {
@@ -2052,10 +2052,10 @@
           "flags": 0,
           "string": 3,
           "fingering": "2",
-          "bowing": "up",
-          "articulation": ".",
+          "bowing": "down",
+          "articulation": null,
           "beam": null,
-          "slur": "end",
+          "slur": null,
           "tie": null
         }
       ]
@@ -2072,7 +2072,7 @@
           "flags": 0,
           "string": 3,
           "fingering": "3",
-          "bowing": "down",
+          "bowing": "up",
           "articulation": null,
           "beam": null,
           "slur": null,
