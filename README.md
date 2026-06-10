@@ -75,6 +75,29 @@ The run is **idempotent** — re-running changes nothing unless sources changed.
   (fugues, slow movements, Ciaccona), keeping the single-line ones.
 - `assets/` is gitignored; the generated JSON + index + CSVs are committed.
 
+## Reviewing staging pieces (the publish gate)
+
+The app repo ships a review harness that validates every generated JSON with
+the app's **production decoder** (decode, pitch parsing, repeat reachability,
+sha256 match, orphan detection) and renders each piece's full engraving as a
+page of stacked systems:
+
+```bash
+cd ../RosinTune
+ROSINTUNE_SCORES_DIR=$(pwd)/../rosintune-scores \
+    swift test --filter ScoreRepoReviewTests
+open ../rosintune-scores/review-gallery   # flip through the PNGs
+```
+
+`review-gallery/report.csv` lists every piece with bar counts, beats-vs-meter
+bad bars, and render status. Review the images, then publish by flipping the
+entry's `stage` to `published` in `score-index.json` (curation is preserved
+across rebuilds).
+
+`sha256` fields are stamped automatically on every `build_scores.py` run; the
+app rejects downloads that don't match, so always commit the regenerated index
+together with changed score JSON.
+
 ## App Store products
 
 `products.csv` is regenerated from the index (via

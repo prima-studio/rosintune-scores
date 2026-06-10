@@ -27,6 +27,7 @@ source disappeared (orphans -> --prune to delete).
 import argparse
 import csv
 import glob
+import hashlib
 import json
 import os
 import re
@@ -643,6 +644,26 @@ def convert_split_piece(piece, prior):
     return results
 
 
+def stamp_hashes(index):
+    """Stamp each entry's `sha256` with the hash of its generated JSON. The app
+    verifies downloads against these and discards mismatches, so they must be
+    re-stamped on every build (a stale hash makes clients reject the file).
+    Returns (stamped, missing) counts; entries whose file is missing keep no
+    hash (the app treats an absent hash as 'no verification')."""
+    stamped, missing = 0, []
+    for col in index.get("collections", []):
+        for s in col.get("scores", []):
+            path = os.path.join(SCORES, s["filename"])
+            if os.path.exists(path):
+                with open(path, "rb") as f:
+                    s["sha256"] = hashlib.sha256(f.read()).hexdigest()
+                stamped += 1
+            else:
+                s.pop("sha256", None)
+                missing.append(s["filename"])
+    return stamped, missing
+
+
 def indent(text, pad="    "):
     return "\n".join(pad + ln for ln in text.splitlines())
 
@@ -799,6 +820,8 @@ def main():
         print("\n(dry run -- no files written)")
         return
 
+    n_hashed, hash_missing = stamp_hashes(index)
+
     with open(INDEX, "w") as f:
         json.dump(index, f, indent=2)
         f.write("\n")
@@ -842,7 +865,11 @@ def main():
         print(f"orphan JSON {verb}: {len(orphans)}")
         for jp in orphans:
             print(f"  - {os.path.relpath(jp, SCORES)}")
-    print(f"score-index.json updated")
+    print(f"score-index.json updated (sha256 stamped for {n_hashed} scores)")
+    if hash_missing:
+        print(f"⚠ no sha256 (file missing on disk): {len(hash_missing)}")
+        for fn in hash_missing:
+            print(f"  - {fn}")
     print(f"scores-inventory.csv: {inv_n} rows")
     print(f"products.csv: {prod_note}")
 

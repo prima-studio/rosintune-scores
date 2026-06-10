@@ -8,3 +8,4 @@ assets/
 __pycache__/
 *.pyc
 *~
+review-gallery/

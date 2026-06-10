@@ -15,7 +15,8 @@
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
-          "version": 1
+          "version": 1,
+          "sha256": "ca25ffe1ffae2be71f902da637f284f2f082d9df1ec41f69d97ab992f871b891"
         },
         {
           "filename": "violin/bach-partita/gavotte.json",
@@ -23,7 +24,8 @@
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
-          "version": 1
+          "version": 1,
+          "sha256": "4a0449b1d5949b2a2fb1819b25c4b0a91ae83c3226ee72e748681370c7de1c08"
         },
         {
           "filename": "violin/bach-partita/gigue.json",
@@ -31,7 +33,8 @@
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
-          "version": 1
+          "version": 1,
+          "sha256": "58927ae9f2dc6b78493126491988620a736d4f64ee42ffb4185d8d4241a038ab"
         }
       ]
     },
@@ -49,7 +52,8 @@
           "composer": "J.S. Bach",
           "difficulty": "intermediate",
           "stage": "staging",
-          "version": 1
+          "version": 1,
+          "sha256": "a4344bf7501eb3fb2d22f443c443b402f36e77c79cd7c9fdb9c07e68735bfdbf"
         },
         {
           "filename": "violin/bach-partita-3/gigue.json",
@@ -57,7 +61,8 @@
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
-          "version": 1
+          "version": 1,
+          "sha256": "7e57b79c3dc12e0062ba82251dae72b080f4c297787c701a29cd9577012dd8a3"
         }
       ]
     },
@@ -77,7 +82,8 @@
           "stage": "published",
           "price": 0,
           "version": 1,
-          "isFree": true
+          "isFree": true,
+          "sha256": "4fa69e1491c8fe33c849f0c78d89febb9e62b7f10c6dcfdc4fdc3e5c209dcafe"
         },
         {
           "filename": "violin/kayser-36-studies/etude-02.json",
@@ -86,7 +92,8 @@
           "difficulty": "beginner",
           "stage": "published",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "a7256efe9fd88f1c1157998388fe6578ceab876b8392c1870d88932dc56f9b79"
         },
         {
           "filename": "violin/kayser-36-studies/etude-03.json",
@@ -95,7 +102,8 @@
           "difficulty": "intermediate",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "168593915369158b7352c5b84ce01a0592adbc011da9288a837b425c3c9c03c3"
         },
         {
           "filename": "violin/kayser-36-studies/etude-04.json",
@@ -104,7 +112,8 @@
           "difficulty": "intermediate",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "2c0bd2ce76182447c1bd29c43660dc77b5f2c59354150030269a62a41cf2fed5"
         },
         {
           "filename": "violin/kayser-36-studies/etude-05.json",
@@ -113,7 +122,8 @@
           "difficulty": "intermediate",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "51538b22e39c39815dad07c30c11d8d3aba72b53e7c4259f379d48caab38a0ce"
         },
         {
           "filename": "violin/kayser-36-studies/etude-06.json",
@@ -122,7 +132,8 @@
           "difficulty": "intermediate",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "474600d4bb63f06095aaf6aaa16b5ac72ac762c685a0bd84b6eabf148978aedb"
         },
         {
           "filename": "violin/kayser-36-studies/etude-07.json",
@@ -131,7 +142,8 @@
           "difficulty": "intermediate",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "1c940b73addc19295420172601c94159040dc1f333733751f082b7b3f64d387f"
         },
         {
           "filename": "violin/kayser-36-studies/etude-08.json",
@@ -140,7 +152,8 @@
           "difficulty": "intermediate",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "ba572f30ef895ad94972d2f387322cb1da6dee2f77de7fd8bafe86c1ec0126c0"
         },
         {
           "filename": "violin/kayser-36-studies/etude-09.json",
@@ -149,7 +162,8 @@
           "difficulty": "intermediate",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "70bf826ce02f18a646c076f0b7dd8c1e7662ef338141406317019de9a25e2f51"
         },
         {
           "filename": "violin/kayser-36-studies/etude-10.json",
@@ -158,7 +172,8 @@
           "difficulty": "intermediate",
           "stage": "published",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "8b24bc0903c2f2f41e1a20c89cdaf64690cf758ac298cb8a79cde6a0121542c5"
         },
         {
           "filename": "violin/kayser-36-studies/etude-11.json",
@@ -167,7 +182,8 @@
           "difficulty": "intermediate",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "31067e1a639c2c4c136f9429904463ae04535508f1320dfed054073d1f181292"
         },
         {
           "filename": "violin/kayser-36-studies/etude-12.json",
@@ -176,7 +192,8 @@
           "difficulty": "intermediate",
           "stage": "published",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "3058c3eb758107764b53bc17693c062afd57f3f12db4909826808ce4abc56772"
         },
         {
           "filename": "violin/kayser-36-studies/etude-13.json",
@@ -185,7 +202,8 @@
           "difficulty": "intermediate",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "4f2e41c1c6f9fdc2ef26c6b618611bfd9a0f4c3ab239de7fe7ebf9d4cb5527e5"
         },
         {
           "filename": "violin/kayser-36-studies/etude-14.json",
@@ -194,7 +212,8 @@
           "difficulty": "intermediate",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "851ae83d24c74ad988147a70aea582cd49642bbfc3f1c3f268f4f4432488bdb1"
         },
         {
           "filename": "violin/kayser-36-studies/etude-15.json",
@@ -203,7 +222,8 @@
           "difficulty": "intermediate",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "35a1767a9da39f6daa7f049baffe4b48592d4be2d381f3485efe7401c6117ef3"
         },
         {
           "filename": "violin/kayser-36-studies/etude-16.json",
@@ -212,7 +232,8 @@
           "difficulty": "intermediate",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "888e9bec701a8f9148ef4cff7156f8653c26130c60881a1d5cf82461fa6220d9"
         },
         {
           "filename": "violin/kayser-36-studies/etude-17.json",
@@ -221,7 +242,8 @@
           "difficulty": "intermediate",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "93922618a8000251362cc264283e872d0e24222051e7b7430afdeb9206a35da0"
         },
         {
           "filename": "violin/kayser-36-studies/etude-18.json",
@@ -230,7 +252,8 @@
           "difficulty": "intermediate",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "a69912efb002c179debcd08a44679f22d7100489c50a4c5a79faea0286bcaacf"
         },
         {
           "filename": "violin/kayser-36-studies/etude-19.json",
@@ -239,7 +262,8 @@
           "difficulty": "intermediate",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "025e51e2b34c4231b349b63505e7b50e3bd8f8f80f7250c1639df5c056e6b478"
         },
         {
           "filename": "violin/kayser-36-studies/etude-21.json",
@@ -248,7 +272,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "b78d8ad7b712dc04771108b256cd1fa93b389b21107cb6f30bf4546bb2acf0b0"
         },
         {
           "filename": "violin/kayser-36-studies/etude-22.json",
@@ -257,7 +282,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "5547da1b9928489ddd29e2bf1cd6b3e3e64cce497db7a63fa75155036ba8d10f"
         },
         {
           "filename": "violin/kayser-36-studies/etude-23.json",
@@ -266,7 +292,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "3188a9beaa48dd9092cb18465d34977db8c4b55b0e2e1c72b62fce3174788aaf"
         },
         {
           "filename": "violin/kayser-36-studies/etude-24.json",
@@ -275,7 +302,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "da936e84afe4e7003c5d3e80dcda63e32a111c0855563ece7efe61637c8f6851"
         },
         {
           "filename": "violin/kayser-36-studies/etude-25.json",
@@ -284,7 +312,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "893c38bb0472f84acd81177d199d271a0ae29803d87584ad3bbf006bcca5e36f"
         },
         {
           "filename": "violin/kayser-36-studies/etude-26.json",
@@ -293,7 +322,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "c0d8ce17c30a9204b5a8fd3cfd58db6cd56b778a92bf57c4b9636c8b80377473"
         },
         {
           "filename": "violin/kayser-36-studies/etude-27.json",
@@ -302,7 +332,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "7f3ed86c33248c0fd6a743554ceb93c07b6eb13f08f00fac864d6a94241b613d"
         },
         {
           "filename": "violin/kayser-36-studies/etude-28.json",
@@ -311,7 +342,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "a15128fc2606a8e6c72c993c64a9786d2f1c40fcf9c93a9da456feadda7e4171"
         },
         {
           "filename": "violin/kayser-36-studies/etude-29.json",
@@ -320,7 +352,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "b0c5bfeb165ae0f15d73e6bd4db893cbac370d03bd65acbd46598a5eeabc368c"
         },
         {
           "filename": "violin/kayser-36-studies/etude-30.json",
@@ -329,7 +362,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "34d156c9fb8152d66a151d327a149f61a3dbc42db20f23689a00342e022b27a2"
         },
         {
           "filename": "violin/kayser-36-studies/etude-31.json",
@@ -338,7 +372,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "560176b8ea25b8cc070ec092445ee29cd11b48592d9e6b4ab65324b5fd4676c1"
         },
         {
           "filename": "violin/kayser-36-studies/etude-32.json",
@@ -347,7 +382,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "764789f754a3f0ee0c75e8ba5802596959406a180d343704a87e8804595a5261"
         },
         {
           "filename": "violin/kayser-36-studies/etude-33.json",
@@ -356,7 +392,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "6b4fce0a255a08be0b379b6743c884305dbc43cf793ce6e478a5196aab4c1ed2"
         },
         {
           "filename": "violin/kayser-36-studies/etude-34.json",
@@ -365,7 +402,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "cd8777dd627568577506e42915a8312ef492efd9835883f9fb40d9c760d0c19e"
         },
         {
           "filename": "violin/kayser-36-studies/etude-35.json",
@@ -374,7 +412,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "7485fc2d3f384c372134defe129a273571cca0b04a41e3cd1555d1d6c1920a0e"
         },
         {
           "filename": "violin/kayser-36-studies/etude-36.json",
@@ -383,7 +422,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "71189cab8114769ccc19109f41da55e7e4cc7b44f281577a222bc575eb82bc21"
         }
       ]
     },
@@ -402,7 +442,8 @@
           "difficulty": "beginner",
           "stage": "published",
           "price": 0.0,
-          "version": 1
+          "version": 1,
+          "sha256": "d84a9d5b9751921c6d096366faca82701ed6ba835de93b98a6a7e6450d75834b"
         },
         {
           "filename": "violin/example/ode-to-joy.json",
@@ -411,7 +452,8 @@
           "difficulty": "beginner",
           "stage": "published",
           "price": 0.0,
-          "version": 1
+          "version": 1,
+          "sha256": "3f8334cc2433ebfe73c5ce923ef292d8728d6dd702b1f855d2b512d09dcc63e2"
         },
         {
           "filename": "violin/example/twinkle.json",
@@ -419,7 +461,8 @@
           "composer": "Traditional",
           "difficulty": "beginner",
           "stage": "published",
-          "version": 1
+          "version": 1,
+          "sha256": "3ba6aa01e52c3e3c45a2566092be82bc6e5b6cb1f5a3659bb2a6322fdd2aa362"
         }
       ]
     },
@@ -438,7 +481,8 @@
           "difficulty": "beginner",
           "stage": "published",
           "price": 0,
-          "version": 1
+          "version": 1,
+          "sha256": "38621af8062f26081156c19bdddf2c5675a8fff79ef25d81b095818667f53992"
         },
         {
           "filename": "violin/suzuki-book-1/lightly-row.json",
@@ -447,7 +491,8 @@
           "difficulty": "beginner",
           "stage": "published",
           "price": 0,
-          "version": 1
+          "version": 1,
+          "sha256": "2ce3f9ee608afc0205cbdfd5f0bc22be41e90914e3de1194ae0b4baaddc297df"
         },
         {
           "filename": "violin/suzuki-book-1/song-of-the-wind.json",
@@ -456,7 +501,8 @@
           "difficulty": "beginner",
           "stage": "published",
           "price": 0,
-          "version": 1
+          "version": 1,
+          "sha256": "6c8d4b43292febed8bb2682cdee02e3524fa8db3e91e7642ba593ff01702a23e"
         },
         {
           "filename": "violin/suzuki-book-1/go-tell-aunt-rhody.json",
@@ -465,7 +511,8 @@
           "difficulty": "beginner",
           "stage": "published",
           "price": 0,
-          "version": 1
+          "version": 1,
+          "sha256": "4ffef8f61e06f858d2d74349f7f50d12b79934d2e305fb8bc1b6b4f49d139766"
         },
         {
           "filename": "violin/suzuki-book-1/o-come-little-children.json",
@@ -474,7 +521,8 @@
           "difficulty": "beginner",
           "stage": "published",
           "price": 0,
-          "version": 1
+          "version": 1,
+          "sha256": "5e0228e65b7aafa4a4af95bd8ea72daa25317dc94a950abefb91b91ffe734067"
         },
         {
           "filename": "violin/suzuki-book-1/may-song.json",
@@ -483,7 +531,8 @@
           "difficulty": "beginner",
           "stage": "published",
           "price": 0,
-          "version": 1
+          "version": 1,
+          "sha256": "6277a4f1b90724baf38153933f573a0732d47ac7038b9650705096ebbd3a306b"
         },
         {
           "filename": "violin/suzuki-book-1/long-long-ago.json",
@@ -492,7 +541,8 @@
           "difficulty": "beginner",
           "stage": "published",
           "price": 0,
-          "version": 1
+          "version": 1,
+          "sha256": "4ab445ab32ed117b3445e0349084ccd440db3d00f2fa30a15bd68f233fa5a70c"
         },
         {
           "filename": "violin/suzuki-book-1/minuet-no-1.json",
@@ -501,7 +551,8 @@
           "difficulty": "beginner",
           "stage": "published",
           "price": 0,
-          "version": 1
+          "version": 1,
+          "sha256": "4d1c2da4b0d6893903f46435c861a2373714b0d999205560bd8c54112d14bd16"
         },
         {
           "filename": "violin/suzuki-book-1/minuet-no-2.json",
@@ -510,7 +561,8 @@
           "difficulty": "beginner",
           "stage": "published",
           "price": 0,
-          "version": 1
+          "version": 1,
+          "sha256": "be03b51bcd935ff0b3d4c2a6db64da438713d43ac86ed0462101099bd7a181d3"
         },
         {
           "filename": "violin/suzuki-book-1/minuet-no-3.json",
@@ -519,7 +571,8 @@
           "difficulty": "beginner",
           "stage": "published",
           "price": 0,
-          "version": 1
+          "version": 1,
+          "sha256": "98afd976ce33f691d0b0095aebd53e77c1d5e62714249d8d917a825644ef64bf"
         },
         {
           "filename": "violin/suzuki-book-1/the-happy-farmer.json",
@@ -528,7 +581,8 @@
           "difficulty": "beginner",
           "stage": "published",
           "price": 0,
-          "version": 1
+          "version": 1,
+          "sha256": "6291626ffe28b8ad24031a9e6e053f7e0d9977282294b13e659325b654cb48a9"
         },
         {
           "filename": "violin/suzuki-book-1/gavotte.json",
@@ -537,14 +591,15 @@
           "difficulty": "beginner",
           "stage": "published",
           "price": 0,
-          "version": 1
+          "version": 1,
+          "sha256": "565d401e2632d8c622d1f403602d18d54bc788108f44023866928a5dca1f0483"
         }
       ]
     },
     {
       "id": "kreutzer-42-studies",
       "title": "Kreutzer 42 Studies",
-      "subtitle": "42 \u00c9tudes ou Caprices",
+      "subtitle": "42 Études ou Caprices",
       "composer": "R. Kreutzer",
       "isFree": false,
       "sortOrder": 3,
@@ -556,7 +611,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "de0b75add5c25d8dcec8c90477fc4329949137cfc8690957358ac97ecb455ebd"
         },
         {
           "filename": "violin/kreutzer-42-studies/etude-02.json",
@@ -565,7 +621,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "7a153add30a45d5150f35911227babafbc3ece7ab61b96c711d6f8c50120cbd7"
         },
         {
           "filename": "violin/kreutzer-42-studies/etude-04.json",
@@ -574,7 +631,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "8a61200e61f87936fa516fd7b2e9a85e01061836e785af7606f34fd5befd91d4"
         },
         {
           "filename": "violin/kreutzer-42-studies/etude-05.json",
@@ -583,7 +641,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "7a6c0b61a1546aa70c03561cc3ab5c10d2dcd32548a197a6af194b668ec06e11"
         },
         {
           "filename": "violin/kreutzer-42-studies/etude-06.json",
@@ -592,7 +651,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "e5dd610f6a0a60f1f01cc1c077ff04f46357309fa7715e7b21a7f2c66d31b7bc"
         },
         {
           "filename": "violin/kreutzer-42-studies/etude-07.json",
@@ -601,7 +661,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "90f27c9d77ee5d0323afa31ca3eeebdc890c06ae5b52a562c1cbb9fffe2835ec"
         },
         {
           "filename": "violin/kreutzer-42-studies/etude-08.json",
@@ -610,7 +671,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "d38c0bc3b68a4c355bb8c5d2b784b87291d82d605d25eb9fd3729b1cf27d05a9"
         },
         {
           "filename": "violin/kreutzer-42-studies/etude-11.json",
@@ -619,7 +681,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "5657e500929ca5c5a7e98f1affa4ca3936e5c9da2b52023df0a68d239de575cf"
         },
         {
           "filename": "violin/kreutzer-42-studies/etude-12.json",
@@ -628,7 +691,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "53edd252eab8b70251b728a4610cdc5cfecb86178f095401f945c5e799b91231"
         },
         {
           "filename": "violin/kreutzer-42-studies/etude-20.json",
@@ -637,7 +701,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "1401b998d8af8329064c8280ac82427f87e3e35d98a1303bf91e31f1873f8483"
         },
         {
           "filename": "violin/kreutzer-42-studies/etude-31.json",
@@ -646,7 +711,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "5ba1c4da7156153ce74f91fef039b9464a2aad30aca360509e2957efcfe11ddd"
         }
       ]
     },
@@ -665,7 +731,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "0740757617ff2db7ae45e0088e2c412c7de9dad7a66019250755146786c1e883"
         },
         {
           "filename": "violin/rode-24-caprices/caprice-06.json",
@@ -674,7 +741,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "cea6738325b7cf44df4d1eb3b102385f57b5a2e41365f9e4a69ce1cc44e513b3"
         },
         {
           "filename": "violin/rode-24-caprices/caprice-08.json",
@@ -683,7 +751,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "b2f6919c47f503631fe95d38ce096b7f83269758714545c8ace83ab8997f6397"
         },
         {
           "filename": "violin/rode-24-caprices/caprice-10.json",
@@ -692,7 +761,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "358743b89f5e68a891208d9404db5230594aa551d025d88afe790896d5a4f23c"
         },
         {
           "filename": "violin/rode-24-caprices/caprice-22.json",
@@ -701,7 +771,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "ec1feb978bda31480aeb9cd8a7a272b8077ee2509f27b0bb48dc9a9ba14b9c46"
         }
       ]
     },
@@ -720,7 +791,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "67f800f0ec09f80f0045916eaf88643e47d4d91768345aa7b9817e01d04612c3"
         },
         {
           "filename": "violin/bach-for-violin/cello-suite-no-1.json",
@@ -729,7 +801,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "5f707f84c42ea65428b2a029e676c52da6efafddecac2b43e9675864fdd21d29"
         },
         {
           "filename": "violin/bach-for-violin/cello-suite-no-1-in-g-major-bwv-1007-prelude.json",
@@ -738,7 +811,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "68a6d4bd5d676bbfc4cfda16e85538ae7d4fee80bfb32624b4f8a92d72742d3f"
         },
         {
           "filename": "violin/bach-for-violin/minuet-in-g-major.json",
@@ -747,7 +821,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "6326c35c54c49290725818c479d5b278344b7a5173dad9badba264cfc7038476"
         },
         {
           "filename": "violin/bach-for-violin/concerto-for-two-violins-in-d-minor-bwv-1043-1st-mvt-violin-i.json",
@@ -756,7 +831,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "74780467f7bdc0bc8fdcf77c1f8c29a651b95d885f8a188373931cd158d72044"
         },
         {
           "filename": "violin/bach-for-violin/concerto-no-1-in-a-minor.json",
@@ -765,7 +841,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "3a8e3eb474f055c4626fec08ef903165adc62086d017d63d6c946085664e370a"
         },
         {
           "filename": "violin/bach-for-violin/gigue-from-partita-no-3-bwv-1006.json",
@@ -774,7 +851,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "69b1d893575606a4b5e6cf064b5a9c5056d626baa1fe0469d91107c6fc555e72"
         },
         {
           "filename": "violin/bach-for-violin/minuet-2.json",
@@ -783,7 +861,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "46a8f5ca1cf77995966b685e214c6571a87c33e325baab7bfc986289de750dcf"
         },
         {
           "filename": "violin/bach-for-violin/minuet-3.json",
@@ -792,7 +871,8 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "33518bbcea062fd9957d530b7b2126ddbbcd2208d10394fa9b46d5498bb6abec"
         },
         {
           "filename": "violin/bach-for-violin/sonata-no-1-in-g-minor-bwv-1001-presto.json",
@@ -801,152 +881,168 @@
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "6299d8987ea718e54e4290406dc5741ac1369ed594e80e64e6b0d67df6a98f94"
         }
       ]
     },
     {
       "id": "bach-sonatas-partitas",
       "title": "Bach Sonatas & Partitas",
-      "subtitle": "Sei Solo, BWV 1001\u20131006",
+      "subtitle": "Sei Solo, BWV 1001–1006",
       "composer": "J.S. Bach",
       "isFree": false,
       "sortOrder": 6,
       "scores": [
         {
           "filename": "violin/bach-sonatas-partitas/bwv1003-04-allegro.json",
-          "title": "Sonata No. 2 in A Minor \u2014 IV. Allegro",
+          "title": "Sonata No. 2 in A Minor — IV. Allegro",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "851900abfa820e2f55cbaaab59df215d165c5605fdcc83299da783a4845da753"
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1002-01-allemanda.json",
-          "title": "Partita No. 1 in B Minor \u2014 I. Allemanda",
+          "title": "Partita No. 1 in B Minor — I. Allemanda",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "449985122ec15194834f34f69785ae7f902e997556cbf0c4d667d145bad51e6b"
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1002-02-double.json",
-          "title": "Partita No. 1 in B Minor \u2014 II. Double",
+          "title": "Partita No. 1 in B Minor — II. Double",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "6c09cffb12c37cca0c0c29d6fe97e3fa277b0ef8e8692b64ad1adddfd43d8f36"
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1002-03-corrente.json",
-          "title": "Partita No. 1 in B Minor \u2014 III. Corrente",
+          "title": "Partita No. 1 in B Minor — III. Corrente",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "0c2a4f563209ccc3daf34da81c5d4a59b53ba19b4754f515f0351955f5de8a65"
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1002-04-double.json",
-          "title": "Partita No. 1 in B Minor \u2014 IV. Double",
+          "title": "Partita No. 1 in B Minor — IV. Double",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "968d581121efc5a95cd62bf99f52ed4efc952829b74785db414310e0e3eb07f3"
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1002-06-double.json",
-          "title": "Partita No. 1 in B Minor \u2014 VI. Double",
+          "title": "Partita No. 1 in B Minor — VI. Double",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "556d1f89038a845eea193c7b078bac18658dc8ffa37af0fa99ba0cdae0cddb57"
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1002-08-double.json",
-          "title": "Partita No. 1 in B Minor \u2014 VIII. Double",
+          "title": "Partita No. 1 in B Minor — VIII. Double",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "9e3d902b6f9e4b84a604801f31aa181c4be8cd2563d475ea5439ad1b1342f999"
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1005-04-allegro-assai.json",
-          "title": "Sonata No. 3 in C Major \u2014 IV. Allegro assai",
+          "title": "Sonata No. 3 in C Major — IV. Allegro assai",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "a1fc0ef40fdc0a1773e2c101c64b389bcd694b8e7dea824a6f20a947c6513059"
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1004-01-allemanda.json",
-          "title": "Partita No. 2 in D Minor \u2014 I. Allemanda",
+          "title": "Partita No. 2 in D Minor — I. Allemanda",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "c96bfa8e7316d348c72c985ace7967fb8dc507920c56dd2a459b05518ae60b16"
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1004-02-corrente.json",
-          "title": "Partita No. 2 in D Minor \u2014 II. Corrente",
+          "title": "Partita No. 2 in D Minor — II. Corrente",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "874f6f660cbbf1f1fa69c6c1d24000da05ca76a67ba88d5ee2c2413392c83852"
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1004-04-giga.json",
-          "title": "Partita No. 2 in D Minor \u2014 IV. Giga",
+          "title": "Partita No. 2 in D Minor — IV. Giga",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "ed5a1da030266a999baf1b608f3bcf6b6d8d0d66c82633997fa3b26ee2ba7741"
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1006-01-preludio.json",
-          "title": "Partita No. 3 in E Major \u2014 I. Preludio",
+          "title": "Partita No. 3 in E Major — I. Preludio",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "bc6be77d98978d95273bbc194e9aebc3d3d96236a179fca07ba737437fd67475"
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1006-06-bourree.json",
-          "title": "Partita No. 3 in E Major \u2014 VI. Bourr\u00e9e",
+          "title": "Partita No. 3 in E Major — VI. Bourrée",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "1226c27eaf8141447d0f1aa7f0549eba0c7707a5be2666835ec3680f4198b586"
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1006-07-gigue.json",
-          "title": "Partita No. 3 in E Major \u2014 VII. Gigue",
+          "title": "Partita No. 3 in E Major — VII. Gigue",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "6902b52c08a49b774f788687e95b55486f7b3ce3f4b32b6572bc34c5b504652a"
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1001-04-presto.json",
-          "title": "Sonata No. 1 in G Minor \u2014 IV. Presto",
+          "title": "Sonata No. 1 in G Minor — IV. Presto",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
           "stage": "staging",
           "price": 0.99,
-          "version": 1
+          "version": 1,
+          "sha256": "25a1d09b524ce8ba443b53b9dc90d4e929bd79f54251510562b1cf023f99113a"
         }
       ]
     }
