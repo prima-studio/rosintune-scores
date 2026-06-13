@@ -100,7 +100,7 @@
           "title": "Etude No. 3",
           "composer": "H.E. Kayser",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "168593915369158b7352c5b84ce01a0592adbc011da9288a837b425c3c9c03c3"
@@ -110,7 +110,7 @@
           "title": "Etude No. 4",
           "composer": "H.E. Kayser",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "2c0bd2ce76182447c1bd29c43660dc77b5f2c59354150030269a62a41cf2fed5"
@@ -120,7 +120,7 @@
           "title": "Etude No. 5",
           "composer": "H.E. Kayser",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "51538b22e39c39815dad07c30c11d8d3aba72b53e7c4259f379d48caab38a0ce"
@@ -130,7 +130,7 @@
           "title": "Etude No. 6",
           "composer": "H.E. Kayser",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "474600d4bb63f06095aaf6aaa16b5ac72ac762c685a0bd84b6eabf148978aedb"
@@ -140,7 +140,7 @@
           "title": "Etude No. 7",
           "composer": "H.E. Kayser",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "1c940b73addc19295420172601c94159040dc1f333733751f082b7b3f64d387f"
@@ -150,7 +150,7 @@
           "title": "Etude No. 8",
           "composer": "H.E. Kayser",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "ba572f30ef895ad94972d2f387322cb1da6dee2f77de7fd8bafe86c1ec0126c0"
@@ -160,7 +160,7 @@
           "title": "Etude No. 9",
           "composer": "H.E. Kayser",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "70bf826ce02f18a646c076f0b7dd8c1e7662ef338141406317019de9a25e2f51"
@@ -180,7 +180,7 @@
           "title": "Etude No. 11",
           "composer": "H.E. Kayser",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "31067e1a639c2c4c136f9429904463ae04535508f1320dfed054073d1f181292"
