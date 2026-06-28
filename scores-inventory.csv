@@ -19,15 +19,15 @@ first-folk-tunes,First Folk Tunes & Classics,violin/first-folk-tunes/minuet-no-3
 first-folk-tunes,First Folk Tunes & Classics,violin/first-folk-tunes/gavotte.json,Gavotte,F.J. Gossec,beginner,published,0.0,true
 kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-01.json,Etude No. 1,H.E. Kayser,beginner,published,0,true
 kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-02.json,Etude No. 2,H.E. Kayser,beginner,published,0.99,false
-kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-03.json,Etude No. 3,H.E. Kayser,intermediate,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-03.json,Etude No. 3,H.E. Kayser,intermediate,published,0.99,false
 kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-04.json,Etude No. 4,H.E. Kayser,intermediate,staging,0.99,false
-kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-05.json,Etude No. 5,H.E. Kayser,intermediate,staging,0.99,false
-kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-06.json,Etude No. 6,H.E. Kayser,intermediate,staging,0.99,false
-kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-07.json,Etude No. 7,H.E. Kayser,intermediate,staging,0.99,false
-kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-08.json,Etude No. 8,H.E. Kayser,intermediate,staging,0.99,false
-kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-09.json,Etude No. 9,H.E. Kayser,intermediate,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-05.json,Etude No. 5,H.E. Kayser,intermediate,published,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-06.json,Etude No. 6,H.E. Kayser,intermediate,published,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-07.json,Etude No. 7,H.E. Kayser,intermediate,published,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-08.json,Etude No. 8,H.E. Kayser,intermediate,published,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-09.json,Etude No. 9,H.E. Kayser,intermediate,published,0.99,false
 kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-10.json,Etude No. 10,H.E. Kayser,intermediate,published,0.99,false
-kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-11.json,Etude No. 11,H.E. Kayser,intermediate,staging,0.99,false
+kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-11.json,Etude No. 11,H.E. Kayser,intermediate,published,0.99,false
 kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-12.json,Etude No. 12,H.E. Kayser,intermediate,published,0.99,false
 kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-13.json,Etude No. 13,H.E. Kayser,intermediate,staging,0.99,false
 kayser-36-studies,Kayser 36 Studies,violin/kayser-36-studies/etude-14.json,Etude No. 14,H.E. Kayser,intermediate,staging,0.99,false
@@ -80,7 +80,8 @@ bach-for-violin,Bach for Violin,violin/bach-for-violin/minuet-3.json,Minuet 3,J.
 bach-for-violin,Bach for Violin,violin/bach-for-violin/sonata-no-1-in-g-minor-bwv-1001-presto.json,Sonata No. 1 in G Minor BWV 1001 Presto,J.S. Bach,advanced,staging,0.99,false
 bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1003-04-allegro.json,Sonata No. 2 in A Minor — IV. Allegro,J.S. Bach,advanced,staging,0.99,false
 bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1002-01-allemanda.json,Partita No. 1 in B Minor — I. Allemanda,J.S. Bach,advanced,staging,0.99,false
-bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1002-02-double.json,Partita No. 1 in B Minor — II. Double,J.S. Bach,advanced,staging,0.99,false
+bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1002-02-double1.json,Partita No. 1 in B Minor — II. Double 1,J.S. Bach,advanced,staging,1.99,false
+bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1002-02b-double2.json,Partita No. 1 in B Minor — II. Double 2,J.S. Bach,advanced,staging,1.99,false
 bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1002-03-corrente.json,Partita No. 1 in B Minor — III. Corrente,J.S. Bach,advanced,staging,0.99,false
 bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1002-04-double.json,Partita No. 1 in B Minor — IV. Double,J.S. Bach,advanced,staging,0.99,false
 bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1002-06-double.json,Partita No. 1 in B Minor — VI. Double,J.S. Bach,advanced,staging,0.99,false

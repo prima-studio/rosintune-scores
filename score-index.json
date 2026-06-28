@@ -785,14 +785,24 @@
           "sha256": "449985122ec15194834f34f69785ae7f902e997556cbf0c4d667d145bad51e6b"
         },
         {
-          "filename": "violin/bach-sonatas-partitas/bwv1002-02-double.json",
+          "filename": "violin/bach-sonatas-partitas/bwv1002-02-double1.json",
           "title": "Partita No. 1 in B Minor \u2014 II. Double",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
-          "stage": "staging",
-          "price": 0.99,
+          "stage": "published",
+          "price": 1.99,
           "version": 1,
-          "sha256": "6c09cffb12c37cca0c0c29d6fe97e3fa277b0ef8e8692b64ad1adddfd43d8f36"
+          "sha256": "0b6a6ef4bed07e5827c0bdc4d1fb4b7a9a0a898c7d29a5edb142b8a77b6f9106"
+        },
+        {
+          "filename": "violin/bach-sonatas-partitas/bwv1002-02b-double2.json",
+          "title": "Partita No. 1 in B Minor \u2014 II. Double 2",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "published",
+          "price": 1.99,
+          "version": 1,
+          "sha256": "075bae312f76cf32290cf89b2e4e1f7cea99b9507510a511b50de4a682f7fb1a"
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1002-03-corrente.json",
