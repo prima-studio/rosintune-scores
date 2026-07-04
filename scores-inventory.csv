@@ -80,8 +80,7 @@ bach-for-violin,Bach for Violin,violin/bach-for-violin/minuet-3.json,Minuet 3,J.
 bach-for-violin,Bach for Violin,violin/bach-for-violin/sonata-no-1-in-g-minor-bwv-1001-presto.json,Sonata No. 1 in G Minor BWV 1001 Presto,J.S. Bach,advanced,staging,0.99,false
 bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1003-04-allegro.json,Sonata No. 2 in A Minor — IV. Allegro,J.S. Bach,advanced,staging,0.99,false
 bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1002-01-allemanda.json,Partita No. 1 in B Minor — I. Allemanda,J.S. Bach,advanced,staging,0.99,false
-bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1002-02-double1.json,Partita No. 1 in B Minor — II. Double 1,J.S. Bach,advanced,staging,1.99,false
-bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1002-02b-double2.json,Partita No. 1 in B Minor — II. Double 2,J.S. Bach,advanced,staging,1.99,false
+bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1002-02-double.json,Partita No. 1 in B Minor — II. Double,J.S. Bach,advanced,staging,0.99,false
 bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1002-03-corrente.json,Partita No. 1 in B Minor — III. Corrente,J.S. Bach,advanced,staging,0.99,false
 bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1002-04-double.json,Partita No. 1 in B Minor — IV. Double,J.S. Bach,advanced,staging,0.99,false
 bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1002-06-double.json,Partita No. 1 in B Minor — VI. Double,J.S. Bach,advanced,staging,0.99,false
@@ -94,5 +93,17 @@ bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv10
 bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1006-06-bourree.json,Partita No. 3 in E Major — VI. Bourrée,J.S. Bach,advanced,staging,0.99,false
 bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1006-07-gigue.json,Partita No. 3 in E Major — VII. Gigue,J.S. Bach,advanced,staging,0.99,false
 bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1001-04-presto.json,Sonata No. 1 in G Minor — IV. Presto,J.S. Bach,advanced,staging,0.99,false
+bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1002-02-double1.json,Partita No. 1 in B Minor — II. Double 1,J.S. Bach,advanced,published,1.99,false
+bach-sonatas-partitas,Bach Sonatas & Partitas,violin/bach-sonatas-partitas/bwv1002-02b-double2.json,Partita No. 1 in B Minor — II. Double 2,J.S. Bach,advanced,published,1.99,false
 bach-partita-3,Bach Partita No. 3,violin/bach-partita-3/gavotte-en-rondeau.json,Gavotte en Rondeau,J.S. Bach,intermediate,staging,,true
 bach-partita-3,Bach Partita No. 3,violin/bach-partita-3/gigue.json,Gigue,J.S. Bach,advanced,staging,,true
+suzuki3,Suzuki3,violin/suzuki3/8-humoresques-op-101-antonin-dvorak-n7-con-cambio-posizioni.json,8 Humoresques Op. 101 Antonin Dvorak N7 Con Cambio Posizioni,A. Dvorak,intermediate,staging,0.99,false
+suzuki3,Suzuki3,violin/suzuki3/minuet-in-g-major.json,Minuet in G Major,A. Dvorak,intermediate,staging,0.99,false
+suzuki3,Suzuki3,violin/suzuki3/bang-bianno-ge-song-of-the-beach-cheng-tian-wei-san.json,Bang Bianno Ge Song of the Beach Cheng Tian Wei San,成田為三,intermediate,staging,0.99,false
+suzuki3,Suzuki3,violin/suzuki3/becker-j-gavotte-in-g-minor.json,Becker J Gavotte in G Minor,A. Dvorak,intermediate,staging,0.99,false
+suzuki3,Suzuki3,violin/suzuki3/gavotte-in-d-major.json,Gavotte in D Major,Bach,intermediate,staging,0.99,false
+suzuki3,Suzuki3,violin/suzuki3/violin-bourree-in-e-minor-bwv-996.json,Violin Bourree in E Minor BWV 996,Compositor / arreglista,intermediate,staging,0.99,false
+suzuki2,Suzuki2,violin/suzuki2/gavotte-f-j-gossec.json,Gavotte F J Gossec,C. M. v. Weber,intermediate,staging,0.99,false
+suzuki2,Suzuki2,violin/suzuki2/hunters-chorus-c-m-v-weber.json,Hunters Chorus C M V Weber,C. M. v. Weber,intermediate,staging,0.99,false
+suzuki2,Suzuki2,violin/suzuki2/musette.json,Musette,J.S. Bach,intermediate,staging,0.99,false
+suzuki2,Suzuki2,violin/suzuki2/waltz-johannes-brahms.json,Waltz Johannes Brahms,J. Brahms,intermediate,staging,0.99,false

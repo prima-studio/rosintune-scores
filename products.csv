@@ -64,8 +64,7 @@ bach_for_violin.Minuet3,Minuet 3 (Bach for Violin),Non-Consumable,0.99,Minuet 3 
 bach_for_violin.SonataNo.1inGMinorBWV1001Presto,Sonata No. 1 in G Minor BWV 1001 Presto (Bach for Violin),Non-Consumable,0.99,Sonata No. 1 in G Minor BWV 1001 Presto from Bach for Violin by J.S. Bach
 bach_sonatas_partitas.SonataNo.2inAMinorIV.Allegro,Sonata No. 2 in A Minor — IV. Allegro (Bach Sonatas & Partitas),Non-Consumable,0.99,Sonata No. 2 in A Minor — IV. Allegro from Bach Sonatas & Partitas by J.S. Bach
 bach_sonatas_partitas.PartitaNo.1inBMinorI.Allemanda,Partita No. 1 in B Minor — I. Allemanda (Bach Sonatas & Partitas),Non-Consumable,0.99,Partita No. 1 in B Minor — I. Allemanda from Bach Sonatas & Partitas by J.S. Bach
-bach_sonatas_partitas.PartitaNo.1inBMinorII.Double1,Partita No. 1 in B Minor — II. Double (Bach Sonatas & Partitas),Non-Consumable,1.99,Partita No. 1 in B Minor — II. Double from Bach Sonatas & Partitas by J.S. Bach
-bach_sonatas_partitas.PartitaNo.1inBMinorII.Double2,Partita No. 1 in B Minor — II. Double 2 (Bach Sonatas & Partitas),Non-Consumable,1.99,Partita No. 1 in B Minor — II. Double 2 from Bach Sonatas & Partitas by J.S. Bach
+bach_sonatas_partitas.PartitaNo.1inBMinorII.Double,Partita No. 1 in B Minor — II. Double (Bach Sonatas & Partitas),Non-Consumable,0.99,Partita No. 1 in B Minor — II. Double from Bach Sonatas & Partitas by J.S. Bach
 bach_sonatas_partitas.PartitaNo.1inBMinorIII.Corrente,Partita No. 1 in B Minor — III. Corrente (Bach Sonatas & Partitas),Non-Consumable,0.99,Partita No. 1 in B Minor — III. Corrente from Bach Sonatas & Partitas by J.S. Bach
 bach_sonatas_partitas.PartitaNo.1inBMinorIV.Double,Partita No. 1 in B Minor — IV. Double (Bach Sonatas & Partitas),Non-Consumable,0.99,Partita No. 1 in B Minor — IV. Double from Bach Sonatas & Partitas by J.S. Bach
 bach_sonatas_partitas.PartitaNo.1inBMinorVI.Double,Partita No. 1 in B Minor — VI. Double (Bach Sonatas & Partitas),Non-Consumable,0.99,Partita No. 1 in B Minor — VI. Double from Bach Sonatas & Partitas by J.S. Bach
@@ -78,3 +77,15 @@ bach_sonatas_partitas.PartitaNo.3inEMajorI.Preludio,Partita No. 3 in E Major —
 bach_sonatas_partitas.PartitaNo.3inEMajorVI.Bourree,Partita No. 3 in E Major — VI. Bourrée (Bach Sonatas & Partitas),Non-Consumable,0.99,Partita No. 3 in E Major — VI. Bourrée from Bach Sonatas & Partitas by J.S. Bach
 bach_sonatas_partitas.PartitaNo.3inEMajorVII.Gigue,Partita No. 3 in E Major — VII. Gigue (Bach Sonatas & Partitas),Non-Consumable,0.99,Partita No. 3 in E Major — VII. Gigue from Bach Sonatas & Partitas by J.S. Bach
 bach_sonatas_partitas.SonataNo.1inGMinorIV.Presto,Sonata No. 1 in G Minor — IV. Presto (Bach Sonatas & Partitas),Non-Consumable,0.99,Sonata No. 1 in G Minor — IV. Presto from Bach Sonatas & Partitas by J.S. Bach
+bach_sonatas_partitas.PartitaNo.1inBMinorII.Double1,Partita No. 1 in B Minor — II. Double 1 (Bach Sonatas & Partitas),Non-Consumable,1.99,Partita No. 1 in B Minor — II. Double 1 from Bach Sonatas & Partitas by J.S. Bach
+bach_sonatas_partitas.PartitaNo.1inBMinorII.Double2,Partita No. 1 in B Minor — II. Double 2 (Bach Sonatas & Partitas),Non-Consumable,1.99,Partita No. 1 in B Minor — II. Double 2 from Bach Sonatas & Partitas by J.S. Bach
+suzuki3.8HumoresquesOp.101AntoninDvorakN7ConCambioPosizioni,8 Humoresques Op. 101 Antonin Dvorak N7 Con Cambio Posizioni (Suzuki3),Non-Consumable,0.99,8 Humoresques Op. 101 Antonin Dvorak N7 Con Cambio Posizioni from Suzuki3 by A. Dvorak
+suzuki3.MinuetinGMajor,Minuet in G Major (Suzuki3),Non-Consumable,0.99,Minuet in G Major from Suzuki3 by A. Dvorak
+suzuki3.BangBiannoGeSongoftheBeachChengTianWeiSan,Bang Bianno Ge Song of the Beach Cheng Tian Wei San (Suzuki3),Non-Consumable,0.99,Bang Bianno Ge Song of the Beach Cheng Tian Wei San from Suzuki3 by A. Dvorak
+suzuki3.BeckerJGavotteinGMinor,Becker J Gavotte in G Minor (Suzuki3),Non-Consumable,0.99,Becker J Gavotte in G Minor from Suzuki3 by A. Dvorak
+suzuki3.GavotteinDMajor,Gavotte in D Major (Suzuki3),Non-Consumable,0.99,Gavotte in D Major from Suzuki3 by A. Dvorak
+suzuki3.ViolinBourreeinEMinorBWV996,Violin Bourree in E Minor BWV 996 (Suzuki3),Non-Consumable,0.99,Violin Bourree in E Minor BWV 996 from Suzuki3 by A. Dvorak
+suzuki2.GavotteFJGossec,Gavotte F J Gossec (Suzuki2),Non-Consumable,0.99,Gavotte F J Gossec from Suzuki2 by C. M. v. Weber
+suzuki2.HuntersChorusCMVWeber,Hunters Chorus C M V Weber (Suzuki2),Non-Consumable,0.99,Hunters Chorus C M V Weber from Suzuki2 by C. M. v. Weber
+suzuki2.Musette,Musette (Suzuki2),Non-Consumable,0.99,Musette from Suzuki2 by C. M. v. Weber
+suzuki2.WaltzJohannesBrahms,Waltz Johannes Brahms (Suzuki2),Non-Consumable,0.99,Waltz Johannes Brahms from Suzuki2 by C. M. v. Weber

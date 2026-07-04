@@ -785,24 +785,14 @@
           "sha256": "449985122ec15194834f34f69785ae7f902e997556cbf0c4d667d145bad51e6b"
         },
         {
-          "filename": "violin/bach-sonatas-partitas/bwv1002-02-double1.json",
+          "filename": "violin/bach-sonatas-partitas/bwv1002-02-double.json",
           "title": "Partita No. 1 in B Minor \u2014 II. Double",
           "composer": "J.S. Bach",
           "difficulty": "advanced",
-          "stage": "published",
-          "price": 1.99,
+          "stage": "staging",
+          "price": 0.99,
           "version": 1,
-          "sha256": "0b6a6ef4bed07e5827c0bdc4d1fb4b7a9a0a898c7d29a5edb142b8a77b6f9106"
-        },
-        {
-          "filename": "violin/bach-sonatas-partitas/bwv1002-02b-double2.json",
-          "title": "Partita No. 1 in B Minor \u2014 II. Double 2",
-          "composer": "J.S. Bach",
-          "difficulty": "advanced",
-          "stage": "published",
-          "price": 1.99,
-          "version": 1,
-          "sha256": "075bae312f76cf32290cf89b2e4e1f7cea99b9507510a511b50de4a682f7fb1a"
+          "sha256": "6c09cffb12c37cca0c0c29d6fe97e3fa277b0ef8e8692b64ad1adddfd43d8f36"
         },
         {
           "filename": "violin/bach-sonatas-partitas/bwv1002-03-corrente.json",
@@ -923,6 +913,26 @@
           "price": 0.99,
           "version": 1,
           "sha256": "25a1d09b524ce8ba443b53b9dc90d4e929bd79f54251510562b1cf023f99113a"
+        },
+        {
+          "filename": "violin/bach-sonatas-partitas/bwv1002-02-double1.json",
+          "title": "Partita No. 1 in B Minor \u2014 II. Double 1",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "published",
+          "price": 1.99,
+          "version": 1,
+          "sha256": "0b6a6ef4bed07e5827c0bdc4d1fb4b7a9a0a898c7d29a5edb142b8a77b6f9106"
+        },
+        {
+          "filename": "violin/bach-sonatas-partitas/bwv1002-02b-double2.json",
+          "title": "Partita No. 1 in B Minor \u2014 II. Double 2",
+          "composer": "J.S. Bach",
+          "difficulty": "advanced",
+          "stage": "published",
+          "price": 1.99,
+          "version": 1,
+          "sha256": "075bae312f76cf32290cf89b2e4e1f7cea99b9507510a511b50de4a682f7fb1a"
         }
       ]
     },
@@ -1065,6 +1075,126 @@
           "version": 1,
           "isFree": true,
           "sha256": "806872a71eaeac3b0c0a9f3ce66eb6bda39f475d69a1d2a50a9ee4c201822959"
+        }
+      ]
+    },
+    {
+      "id": "suzuki3",
+      "title": "Suzuki3",
+      "subtitle": null,
+      "composer": "A. Dvorak",
+      "isFree": false,
+      "sortOrder": 90,
+      "scores": [
+        {
+          "filename": "violin/suzuki3/8-humoresques-op-101-antonin-dvorak-n7-con-cambio-posizioni.json",
+          "title": "8 Humoresques Op. 101 Antonin Dvorak N7 Con Cambio Posizioni",
+          "composer": "A. Dvorak",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1,
+          "sha256": "b15a2526a1b2b18612b715d59d756d6443966e5626e70caf2ccbc11918f224b2"
+        },
+        {
+          "filename": "violin/suzuki3/minuet-in-g-major.json",
+          "title": "Minuet in G Major",
+          "composer": "A. Dvorak",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1,
+          "sha256": "1b43a12c99dc6fbc803e3ca3b1c258498334b0ef81a57597f8b94c15717342ad"
+        },
+        {
+          "filename": "violin/suzuki3/bang-bianno-ge-song-of-the-beach-cheng-tian-wei-san.json",
+          "title": "Bang Bianno Ge Song of the Beach Cheng Tian Wei San",
+          "composer": "\u6210\u7530\u70ba\u4e09",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1,
+          "sha256": "a190535fc04c320f6839aa244342f95caa90ea370e45b4ea9dc595dd83da1a6f"
+        },
+        {
+          "filename": "violin/suzuki3/becker-j-gavotte-in-g-minor.json",
+          "title": "Becker J Gavotte in G Minor",
+          "composer": "A. Dvorak",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1,
+          "sha256": "c49411ff4adcd9f2293c0365fa791bdf4913e76ad373035ef54c0ca8e0518a7b"
+        },
+        {
+          "filename": "violin/suzuki3/gavotte-in-d-major.json",
+          "title": "Gavotte in D Major",
+          "composer": "Bach",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1,
+          "sha256": "3bc57a6b9b403b2baf95de18831cf7b924cb9a6cb24a120ba6ca98e03bd1e44e"
+        },
+        {
+          "filename": "violin/suzuki3/violin-bourree-in-e-minor-bwv-996.json",
+          "title": "Violin Bourree in E Minor BWV 996",
+          "composer": "Compositor / arreglista",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1,
+          "sha256": "28d1ebf031e1b7d915c9a622fe6ce653913a991ca27a501e3a3a65c706975785"
+        }
+      ]
+    },
+    {
+      "id": "suzuki2",
+      "title": "Suzuki2",
+      "subtitle": null,
+      "composer": "C. M. v. Weber",
+      "isFree": false,
+      "sortOrder": 90,
+      "scores": [
+        {
+          "filename": "violin/suzuki2/gavotte-f-j-gossec.json",
+          "title": "Gavotte F J Gossec",
+          "composer": "C. M. v. Weber",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1,
+          "sha256": "e3277acde75fafe7247113636fd04e0d1a2766bff6240fe74e718979a37a20ae"
+        },
+        {
+          "filename": "violin/suzuki2/hunters-chorus-c-m-v-weber.json",
+          "title": "Hunters Chorus C M V Weber",
+          "composer": "C. M. v. Weber",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1,
+          "sha256": "a728fe839abd49e8b4f743d26f0cd775deb081a29fb686ec85d66db429b26179"
+        },
+        {
+          "filename": "violin/suzuki2/musette.json",
+          "title": "Musette",
+          "composer": "J.S. Bach",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1,
+          "sha256": "cf9b328898688d79b147e8a0fa5a478a887b89fe4066f670e20ef2270e235463"
+        },
+        {
+          "filename": "violin/suzuki2/waltz-johannes-brahms.json",
+          "title": "Waltz Johannes Brahms",
+          "composer": "J. Brahms",
+          "difficulty": "intermediate",
+          "stage": "staging",
+          "price": 0.99,
+          "version": 1,
+          "sha256": "2a3afcb387831f28d961f2ec91ca13716e924f1779e08952ae144c9d155de87c"
         }
       ]
     }
