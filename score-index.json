@@ -110,7 +110,7 @@
           "title": "Etude No. 4",
           "composer": "H.E. Kayser",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "2c0bd2ce76182447c1bd29c43660dc77b5f2c59354150030269a62a41cf2fed5"
@@ -200,7 +200,7 @@
           "title": "Etude No. 13",
           "composer": "H.E. Kayser",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "4f2e41c1c6f9fdc2ef26c6b618611bfd9a0f4c3ab239de7fe7ebf9d4cb5527e5"
@@ -210,7 +210,7 @@
           "title": "Etude No. 14",
           "composer": "H.E. Kayser",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "851ae83d24c74ad988147a70aea582cd49642bbfc3f1c3f268f4f4432488bdb1"
@@ -220,7 +220,7 @@
           "title": "Etude No. 15",
           "composer": "H.E. Kayser",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "35a1767a9da39f6daa7f049baffe4b48592d4be2d381f3485efe7401c6117ef3"
@@ -230,7 +230,7 @@
           "title": "Etude No. 16",
           "composer": "H.E. Kayser",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "888e9bec701a8f9148ef4cff7156f8653c26130c60881a1d5cf82461fa6220d9"
@@ -240,7 +240,7 @@
           "title": "Etude No. 17",
           "composer": "H.E. Kayser",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "93922618a8000251362cc264283e872d0e24222051e7b7430afdeb9206a35da0"
@@ -250,7 +250,7 @@
           "title": "Etude No. 18",
           "composer": "H.E. Kayser",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "a69912efb002c179debcd08a44679f22d7100489c50a4c5a79faea0286bcaacf"
@@ -260,7 +260,7 @@
           "title": "Etude No. 19",
           "composer": "H.E. Kayser",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "025e51e2b34c4231b349b63505e7b50e3bd8f8f80f7250c1639df5c056e6b478"
@@ -270,7 +270,7 @@
           "title": "Etude No. 21",
           "composer": "H.E. Kayser",
           "difficulty": "advanced",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "b78d8ad7b712dc04771108b256cd1fa93b389b21107cb6f30bf4546bb2acf0b0"
@@ -280,7 +280,7 @@
           "title": "Etude No. 22",
           "composer": "H.E. Kayser",
           "difficulty": "advanced",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "5547da1b9928489ddd29e2bf1cd6b3e3e64cce497db7a63fa75155036ba8d10f"
@@ -290,7 +290,7 @@
           "title": "Etude No. 23",
           "composer": "H.E. Kayser",
           "difficulty": "advanced",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "3188a9beaa48dd9092cb18465d34977db8c4b55b0e2e1c72b62fce3174788aaf"
@@ -300,7 +300,7 @@
           "title": "Etude No. 24",
           "composer": "H.E. Kayser",
           "difficulty": "advanced",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "da936e84afe4e7003c5d3e80dcda63e32a111c0855563ece7efe61637c8f6851"
@@ -310,7 +310,7 @@
           "title": "Etude No. 25",
           "composer": "H.E. Kayser",
           "difficulty": "advanced",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "893c38bb0472f84acd81177d199d271a0ae29803d87584ad3bbf006bcca5e36f"
@@ -320,7 +320,7 @@
           "title": "Etude No. 26",
           "composer": "H.E. Kayser",
           "difficulty": "advanced",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "c0d8ce17c30a9204b5a8fd3cfd58db6cd56b778a92bf57c4b9636c8b80377473"
@@ -330,7 +330,7 @@
           "title": "Etude No. 27",
           "composer": "H.E. Kayser",
           "difficulty": "advanced",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "7f3ed86c33248c0fd6a743554ceb93c07b6eb13f08f00fac864d6a94241b613d"
@@ -340,7 +340,7 @@
           "title": "Etude No. 28",
           "composer": "H.E. Kayser",
           "difficulty": "advanced",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "a15128fc2606a8e6c72c993c64a9786d2f1c40fcf9c93a9da456feadda7e4171"
@@ -350,7 +350,7 @@
           "title": "Etude No. 29",
           "composer": "H.E. Kayser",
           "difficulty": "advanced",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "b0c5bfeb165ae0f15d73e6bd4db893cbac370d03bd65acbd46598a5eeabc368c"
@@ -360,7 +360,7 @@
           "title": "Etude No. 30",
           "composer": "H.E. Kayser",
           "difficulty": "advanced",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "34d156c9fb8152d66a151d327a149f61a3dbc42db20f23689a00342e022b27a2"
@@ -370,7 +370,7 @@
           "title": "Etude No. 31",
           "composer": "H.E. Kayser",
           "difficulty": "advanced",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "560176b8ea25b8cc070ec092445ee29cd11b48592d9e6b4ab65324b5fd4676c1"
@@ -380,7 +380,7 @@
           "title": "Etude No. 32",
           "composer": "H.E. Kayser",
           "difficulty": "advanced",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "764789f754a3f0ee0c75e8ba5802596959406a180d343704a87e8804595a5261"
@@ -390,7 +390,7 @@
           "title": "Etude No. 33",
           "composer": "H.E. Kayser",
           "difficulty": "advanced",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "6b4fce0a255a08be0b379b6743c884305dbc43cf793ce6e478a5196aab4c1ed2"
@@ -400,7 +400,7 @@
           "title": "Etude No. 34",
           "composer": "H.E. Kayser",
           "difficulty": "advanced",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "cd8777dd627568577506e42915a8312ef492efd9835883f9fb40d9c760d0c19e"
@@ -410,7 +410,7 @@
           "title": "Etude No. 35",
           "composer": "H.E. Kayser",
           "difficulty": "advanced",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "7485fc2d3f384c372134defe129a273571cca0b04a41e3cd1555d1d6c1920a0e"
@@ -420,7 +420,7 @@
           "title": "Etude No. 36",
           "composer": "H.E. Kayser",
           "difficulty": "advanced",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "71189cab8114769ccc19109f41da55e7e4cc7b44f281577a222bc575eb82bc21"
@@ -1120,7 +1120,7 @@
           "filename": "violin/suzuki3/becker-j-gavotte-in-g-minor.json",
           "title": "Becker J Gavotte in G Minor",
           "composer": "A. Dvorak",
-          "difficulty": "intermediate",
+          "difficulty": "published",
           "stage": "staging",
           "price": 0.99,
           "version": 1,
@@ -1130,7 +1130,7 @@
           "filename": "violin/suzuki3/gavotte-in-d-major.json",
           "title": "Gavotte in D Major",
           "composer": "Bach",
-          "difficulty": "intermediate",
+          "difficulty": "published",
           "stage": "staging",
           "price": 0.99,
           "version": 1,
@@ -1161,7 +1161,7 @@
           "title": "Gavotte F J Gossec",
           "composer": "C. M. v. Weber",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "e3277acde75fafe7247113636fd04e0d1a2766bff6240fe74e718979a37a20ae"
@@ -1171,7 +1171,7 @@
           "title": "Hunters Chorus C M V Weber",
           "composer": "C. M. v. Weber",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "a728fe839abd49e8b4f743d26f0cd775deb081a29fb686ec85d66db429b26179"
@@ -1181,7 +1181,7 @@
           "title": "Musette",
           "composer": "J.S. Bach",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "cf9b328898688d79b147e8a0fa5a478a887b89fe4066f670e20ef2270e235463"
@@ -1191,7 +1191,7 @@
           "title": "Waltz Johannes Brahms",
           "composer": "J. Brahms",
           "difficulty": "intermediate",
-          "stage": "staging",
+          "stage": "published",
           "price": 0.99,
           "version": 1,
           "sha256": "2a3afcb387831f28d961f2ec91ca13716e924f1779e08952ae144c9d155de87c"
